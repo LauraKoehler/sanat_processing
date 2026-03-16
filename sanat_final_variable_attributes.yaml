@@ -1,0 +1,203 @@
+noseboom:
+
+    alt:
+      old: h_ins_corr
+      long_name: altitude
+      standard_name: altitude
+      platform: noseboom
+      units: m
+      comment: from INS height corrected with GPS
+    
+    lat:
+      old: lat_corr
+      long_name: latitude
+      standard_name: latitude
+      platform: noseboom
+      units: degree_north
+      comment: from INS lat corrected with GPS
+    
+    lon:
+      old: lon_corr
+      long_name: longitude
+      standard_name: longitude
+      platform: noseboom
+      units: degree_east
+      comment: from INS lon corrected with GPS
+    
+    p_air:
+      old: ps
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: noseboom
+      units: Pa
+      comment: from five hole probe slow and dynamic pressure
+    
+    gs:
+      old: gs
+      long_name: ground speed
+      standard_name: platform_speed_wrt_ground
+      platform: noseboom
+      units: m s-1
+      comment: from INS ground speed corrected with GPS
+    
+    pitch:
+      old: pit
+      long_name: pitch
+      standard_name: platform_pitch
+      platform: noseboom
+      units: degree
+      comment: INS pitch
+    
+    roll:
+      old: roll
+      long_name: roll
+      standard_name: platform_roll
+      platform: noseboom
+      units: degree
+      comment: INS roll
+    
+    rh:
+      old: rFHuN_corr
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: noseboom
+      units: '1'
+      comment: Humicap HMT333
+    
+    t_air:
+      old: Te_N_corr
+      long_name: air temperature
+      standard_name: air_temperature
+      platform: noseboom
+      units: K
+      comment: from Humicap with adiabatic corrections
+    
+    u:
+      old: u
+      long_name: u-component of the wind
+      standard_name: eastward_wind
+      platform: noseboom
+      units: m s-1
+      comment: from five hole probe and INS
+    
+    v:
+      old: v
+      long_name: v-component of the wind
+      standard_name: northward_wind
+      platform: noseboom
+      units: m s-1
+      comment: from five hole probe and INS
+    
+    w:
+      old: vertwind
+      long_name: w-component of the wind
+      standard_name: upward_air_velocity
+      platform: noseboom
+      units: m s-1
+      comment: from five hole probe and INS
+    
+    taspd:
+      old: tas
+      long_name: true air speed
+      standard_name: platform_speed_wrt_air
+      platform: noseboom
+      units: m s-1
+      comment: from five hole probe pressures
+
+tbird:
+    
+    alt:
+      old: h_inat
+      long_name: altitude
+      standard_name: altitude
+      platform: tbird
+      units: m
+      comment: INAT height
+    
+    lat:
+      old: lat_inat
+      long_name: latitude
+      standard_name: latitude
+      platform: tbird
+      units: degree_north
+      comment: INAT latitude
+    
+    lon:
+      old: lon_inat
+      long_name: longitude
+      standard_name: longitude
+      platform: tbird
+      units: degree_east
+      comment: INAT longitude
+    
+    p_air:
+      old: ps
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: tbird
+      units: Pa
+      comment: from five hole probe slow and dynamic pressure
+    
+    gs:
+      old: gs_inat
+      long_name: ground speed
+      standard_name: platform_speed_wrt_ground
+      platform: tbird
+      units: m s-1
+      comment: INAT ground speed
+    
+    pitch:
+      old: pitch_inat
+      long_name: pitch
+      standard_name: platform_pitch
+      platform: tbird
+      units: degree
+      comment: INAT pitch
+    
+    roll:
+      old: roll_inat
+      long_name: roll
+      standard_name: platform_roll
+      platform: tbird
+      units: degree
+      comment: INAT roll
+    
+    t_air:
+      old: Te_T_corr
+      long_name: air temperature
+      standard_name: air_temperature
+      platform: tbird
+      units: K
+      comment: from Humicap with adiabatic corrections
+    
+    u:
+      old: u
+      long_name: u-component of the wind
+      standard_name: eastward_wind
+      platform: tbird
+      units: m s-1
+      comment: from five hole probe and INAT
+    
+    v:
+      old: v
+      long_name: v-component of the wind
+      standard_name: northward_wind
+      platform: tbird
+      units: m s-1
+      comment: from five hole probe and INAT
+    
+    w:
+      old: vertwind
+      long_name: w-component of the wind
+      standard_name: upward_air_velocity
+      platform: tbird
+      units: m s-1
+      comment: from five hole probe and INAT
+    
+    taspd:
+      old: tas
+      long_name: true air speed
+      standard_name: platform_speed_wrt_air
+      platform: tbird
+      units: m s-1
+      comment: from five hole probe pressures

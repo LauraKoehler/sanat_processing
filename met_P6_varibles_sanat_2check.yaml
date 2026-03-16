@@ -1,0 +1,803 @@
+# T-Bird
+
+psT: 
+  old: TBird_SPF.SPF_raw
+  long_name: T-Bird static pressure fast
+  sensor: Setra 278
+  serial: 7547828
+  group: tbird
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qaT: 
+  old: TBird_DPA.DPA_raw
+  long_name: TBird differential pressure alpha
+  sensor: Setra 239R
+  serial: 7554968
+  group: tbird
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qbT:
+  old: TBird_DPB.DPB_raw
+  long_name: TBird differential pressure beta
+  sensor: Setra 239R
+  serial: 7554969
+  group: tbird
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qcT: 
+  old: TBird_DynP.DP_raw
+  long_name: TBird dynamic pressure
+  sensor: Setra 239R
+  serial: 7554970
+  group: tbird
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+Te_T:
+  old: TBird_TAT.TAT_raw
+  long_name: TBird total air temperature
+  sensor: Rosemount Total Air Temperature Sensor 102E102BV
+  serial: B46695
+  group: tbird
+  units: K
+  units_old: K
+  raw_sampling_time: 0.01 # in s
+
+# iNAT
+
+ttrk_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT true track
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+mtrk_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT magnetic track
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+gs_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT ground speed
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: m/s
+  units_old: km/h
+  raw_sampling_time: 0.1 # in s
+
+t_inat_gpgga:
+  old: iNAT_M200.ATEL
+  long_name: iNAT GPGGA UTC time
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: UTC
+  units_old: UTC
+  raw_sampling_time: 0.1 # in s
+
+lat_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT latitude
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+lon_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT longitude
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+q_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT quality flag
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: 1
+  units_old: 1
+  raw_sampling_time: 0.1 # in s
+
+hdop_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT horizontal dilution of precision
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: 1
+  units_old: 1
+  raw_sampling_time: 0.1 # in s
+
+h_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT antenna altitude above/below mean sea level
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: m
+  units_old: m
+  raw_sampling_time: 0.1 # in s
+
+geoid_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT undulation - the relationship between the geoid and the WGS84 ellipsoid
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: m
+  units_old: m
+  raw_sampling_time: 0.1 # in s
+
+n_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT number of satellites in use. May be different to the number in view
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: 1
+  units_old: 1
+  raw_sampling_time: 0.1 # in s
+
+t_inat_piahs:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS UTC time
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: UTC
+  units_old: UTC
+  raw_sampling_time: 0.1 # in s
+
+gpsi_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS GPS quality integer
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: 1
+  units_old: 1
+  raw_sampling_time: 0.1 # in s
+
+status_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS status bits checksum
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: 1
+  units_old: 1
+  raw_sampling_time: 0.1 # in s
+
+thdg_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS true heading
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+roll_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS roll
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+pitch_inat:
+  old: iNAT_M200.ATEL
+  long_name: iNAT PIAHS pitch
+  sensor: iMAR iNAT
+  serial:
+  group: inat
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+# BMET
+
+TejB:
+  old: RM102EK1BB_2.TATD_raw
+  long_name: total air temperature deiced 4
+  sensor: Rosemount Total Air Temperature Sensor 102EJ2BB
+  serial: 14663E
+  group: bmet
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+ThuB:
+  old: HMT333_4.T_raw
+  long_name: humicap 4 temperature raw
+  sensor: Vaisala HMT333
+  serial: H1020003
+  group: bmet
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+rFHuB:
+  old: HMT333_4.H_raw
+  long_name: humicap 4 relative humidity raw
+  sensor: Vaisala HMT333
+  serial: H1020003
+  group: bmet
+  units: 1
+  units_old: percent
+  raw_sampling_time: 0.05 # in s
+
+qcB:
+  old: Setra239R_4.DP_raw
+  long_name: dynamic pressure 4 raw
+  sensor: Setra 239R
+  serial: 4995087
+  group: bmet
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+psB:
+  old: Setra278_3.SPF_raw
+  long_name: static pressure fast 3 raw
+  sensor: Setra 278
+  serial: 4999332 
+  group: bmet
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+pssB:
+  old: DPM7885_3.SPS_ATEL
+  long_name: static pressure slow 3 raw
+  sensor: Weston DPM7885
+  serial: 150408 
+  group: bmet
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.2 # in s
+
+h_rad:
+  old: RADALT.RAW
+  long_name: radar altitude raw
+  sensor: Radar Altimeter
+  serial: 999-999-999
+  group: bmet
+  units: m
+  units_old: feet
+  raw_sampling_time: 0.01 # in s
+
+# Noseboom
+
+psN:
+  old: Setra278_2.SPF_raw
+  long_name: Static Pressure Fast Nose Boom
+  sensor: Setra278_2
+  serial: 4999330
+  group: noseboom
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qaN:
+  old: Setra239R_6.DPA_raw
+  long_name: Dynamic Pressure Alpha 2 
+  sensor: Setra239R_6
+  serial: 6937827
+  group: noseboom
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qbN:
+  old: Setra239R_7.DPB_raw
+  long_name: Dynamic Pressure Beta 2 
+  sensor: Setra239R_7
+  serial: 6937826
+  group: noseboom
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+qcN:
+  old: Setra239R_10.DP_raw
+  long_name: Dynamic Pressure 10
+  sensor: Setra239R_10
+  serial: 7716255
+  group: noseboom
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.01 # in s
+
+TejN:
+  old: RM102EJ2BB_2.TATD_raw
+  long_name: Total Air Temperature Deiced 2
+  sensor: RM102EJ2BB_2
+  serial: 14663E
+  group: noseboom
+  units: K
+  units_old: K
+  raw_sampling_time: 0.01 # in s
+
+Te_N:
+  old: RM102E102BV_1.TAT_raw
+  long_name: Total Air Temperature 1
+  sensor: RM102E102BV_1
+  serial: 70511
+  group: noseboom
+  units: K
+  units_old: K
+  raw_sampling_time: 0.01 # in s
+
+ThuN:
+  old: HMT333_2.T_raw
+  long_name: HMT333_2 Temperature raw
+  sensor: Vaisala HMT333 
+  serial: M4650074
+  group: noseboom
+  units: K
+  units_old: K
+  raw_sampling_time: 0.01 # in s
+
+rFHuN:
+  old: HMT333_2.H_raw
+  long_name: HMT333_2 Relative Humidity Raw
+  sensor: Vaisala HMT333 
+  serial: M4650074
+  group: noseboom
+  units: 1
+  units_old: percent
+  raw_sampling_time: 0.01 # in s
+
+pssN:
+  old: DPM7885_5.SPS_ATEL
+  long_name: Static Pressure Slow 5
+  sensor: DPM7885_5
+  serial: 150463
+  group: noseboom
+  units: Pa
+  units_old: hPa
+  raw_sampling_time: 0.2 # in s
+
+# Radiation
+
+Pyau:
+  old: Pyrano_bottom.RAD_raw
+  long_name: Shortwave Irradiance bottom value raw
+  sensor: Kipp & Zonen Radiation Sensor CMP22
+  serial: 110293
+  group: rad
+  units: W/m^2
+  units_old: W/m^2
+  raw_sampling_time: 0.05 # in s
+
+T_Pyau:
+  old: Pyrano_bottom.RAD_raw
+  long_name: Shortwave Irradiance bottom temperature raw
+  sensor: Kipp & Zonen Radiation Sensor CMP22
+  serial: 110293
+  group: rad
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+Pyao:
+  old: Pyrano_top.RAD_raw
+  long_name: Shortwave Irradiance top value raw
+  sensor: Kipp & Zonen Radiation Sensor CMP22
+  serial: 110309
+  group: rad
+  units: W/m^2
+  units_old: W/m^2
+  raw_sampling_time: 0.05 # in s
+
+T_Pyao:
+  old: Pyrano_top.RAD_raw
+  long_name: Shortwave Irradiance top temperature raw
+  sensor: Kipp & Zonen Radiation Sensor CMP22
+  serial: 110309
+  group: rad
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+Pygu:
+  old: Pyrgeo_bottom.RAD_raw
+  long_name: Longwave Irradiance bottom value raw
+  sensor: Kipp & Zonen Radiation Sensor CGR4
+  serial: 110385
+  group: rad
+  units: W/m^2
+  units_old: W/m^2
+  raw_sampling_time: 0.05 # in s
+
+T_Pygu:
+  old: Pyrgeo_bottom.T_raw
+  long_name: Longwave Irradiance bottom temperature raw
+  sensor: Kipp & Zonen Radiation Sensor CGR4
+  serial: 110385
+  group: rad
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+Pygo:
+  old: Pyrgeo_top.RAD_raw
+  long_name: Longwave Irradiance top value raw
+  sensor: Kipp & Zonen Radiation Sensor CGR4
+  serial: 111084
+  group: rad
+  units: W/m^2
+  units_old: W/m^2
+  raw_sampling_time: 0.05 # in s
+
+T_Pygo:
+  old: Pyrgeo_top.T_raw
+  long_name: Longwave Irradiance top temperature raw
+  sensor: Kipp & Zonen Radiation Sensor CGR4
+  serial: 111084
+  group: rad
+  units: K
+  units_old: K
+  raw_sampling_time: 0.05 # in s
+
+# INS
+
+axf:
+  old: INS.XA
+  long_name: x acceleration
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s^2
+  units_old: 9.81 m/s^2
+  raw_sampling_time: 0.01 # in s
+
+ayf:
+  old: INS.YA
+  long_name: y acceleration
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s^2
+  units_old: 9.81 m/s^2
+  raw_sampling_time: 0.01 # in s
+
+azf:
+  old: INS.ZA
+  long_name: z acceleration
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s^2
+  units_old: 9.81 m/s^2
+  raw_sampling_time: 0.01 # in s
+
+pitr:
+  old: INS.PR
+  long_name: pitch rate
+  sensor: INS
+  serial:
+  group: ins
+  units: degree/s
+  units_old: degree/s
+  raw_sampling_time: 0.01 # in s
+
+rolr:
+  old: INS.RR
+  long_name: roll rate
+  sensor: INS
+  serial:
+  group: ins
+  units: degree/s
+  units_old: degree/s
+  raw_sampling_time: 0.01 # in s
+
+yawr:
+  old: INS.YR
+  long_name: yaw rate
+  sensor: INS
+  serial:
+  group: ins
+  units: degree/s
+  units_old: degree/s
+  raw_sampling_time: 0.01 # in s
+
+pit:
+  old: INS.PA
+  long_name: pitch angle
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.02 # in s
+
+roll:
+  old: INS.RA
+  long_name: roll angle
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.02 # in s
+
+thdg:
+  old: INS.TH
+  long_name: true heading
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.04 # in s
+
+vew:
+  old: INS.EWV
+  long_name: east west velocity
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s
+  units_old: knots
+  raw_sampling_time: 0.08 # in s
+
+vns:
+  old: INS.NSV
+  long_name: north south velocity
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s
+  units_old: knots
+  raw_sampling_time: 0.08 # in s
+
+w:
+  old: INS.IVS
+  long_name: vertical velocity
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s
+  units_old: knots
+  raw_sampling_time: 0.02 # in s
+
+lon:
+  old: INS.LO
+  long_name: longitude
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.08 # in s
+
+lat:
+  old: INS.LA
+  long_name: latitude
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.08 # in s
+
+h:
+  old: INS.IA
+  long_name: inertial altitude
+  sensor: INS
+  serial:
+  group: ins
+  units: m
+  units_old: m
+  raw_sampling_time: 0.04 # in s
+
+azg:
+  old: INS.VA
+  long_name: vertical acceleration
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s^2
+  units_old: 9.81 m/s^2
+  raw_sampling_time: 0.02 # in s
+
+ttrk:
+  old: INS.TTA
+  long_name: true track angle
+  sensor: INS
+  serial:
+  group: ins
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.04 # in s
+
+gs:
+  old: INS.GS
+  long_name: ground speed
+  sensor: INS
+  serial:
+  group: ins
+  units: m/s
+  units_old: knots
+  raw_sampling_time: 0.04 # in s
+
+# GPS
+
+t_gpgga:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPGGA UTC time
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: UTC
+  units_old: UTC
+  raw_sampling_time: 1.0 # in s
+
+hdop_gpgga:
+  old: GPS1.ATEL
+  long_name: Polar 6 horizontal dilution of precision
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: 1
+  units_old: 1
+  raw_sampling_time: 1.0 # in s
+
+h_gpgga:
+  old: GPS1.ATEL
+  long_name: Polar 6 antenna altitude above/below mean sea level
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: m
+  units_old: m
+  raw_sampling_time: 1.0 # in s
+
+geoid_gpgga:
+  old: GPS1.ATEL
+  long_name: Polar 6 undulation - the relationship between the geoid and the WGS84 ellipsoid
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: m
+  units_old: m
+  raw_sampling_time: 1.0 # in s
+
+n_gpgga:
+  old: GPS1.ATEL
+  long_name: Polar 6 number of satellites in use. May be different to the number in view
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: 1
+  units_old: 1
+  raw_sampling_time: 1.0 # in s
+
+t_gprmc:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPRMC UTC time
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: UTC
+  units_old: UTC
+  raw_sampling_time: 1.0 # in s
+
+gs_gprmc:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPRMC ground speed
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: m/s
+  units_old: knots
+  raw_sampling_time: 1.0 # in s
+
+ttrk_gprmc:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPRMC true track angle
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: degree
+  units_old: degree
+  raw_sampling_time: 1.0 # in s
+
+lon_gprmc:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPRMC longitude
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: degree
+  units_old: degree
+  raw_sampling_time: 1.0 # in s
+
+lat_gprmc:
+  old: GPS1.ATEL
+  long_name: Polar 6 GPRMC latitude
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: degree
+  units_old: degree
+  raw_sampling_time: 1.0 # in s
+
+gs_bestvel:
+  old: GPS1.ATEL
+  long_name: Polar 6 BESTVEL ground speed
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: m/s
+  units_old: m/s
+  raw_sampling_time: 0.1 # in s
+
+ttrk_bestvel:
+  old: GPS1.ATEL
+  long_name: Polar 6 BESTVEL true track
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: degree
+  units_old: degree
+  raw_sampling_time: 0.1 # in s
+
+w_bestvel:
+  old: GPS1.ATEL
+  long_name: Polar 6 BESTVEL vertical velocity
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: m/s
+  units_old: m/s
+  raw_sampling_time: 0.1 # in s
+
+age_bestvel:
+  old: GPS1.ATEL
+  long_name: Polar 6 BESTVEL differential age
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: s
+  units_old: s
+  raw_sampling_time: 0.1 # in s
+
+latency_bestvel:
+  old: GPS1.ATEL
+  long_name: Polar 6 BESTVEL latency in the velocity time tag
+  sensor: Polar 6 GPS
+  serial:
+  group: gps
+  units: s
+  units_old: s
+  raw_sampling_time: 0.1 # in s
