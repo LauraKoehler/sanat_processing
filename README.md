@@ -40,7 +40,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>3</td>
 <td>2026-01-21 13:04:00</td>
 <td>Leg 1 out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>4</td>
@@ -52,7 +52,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>5</td>
 <td>2026-01-21 13:19:00</td>
 <td>Leg 1 ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>6</td>
@@ -64,7 +64,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>7</td>
 <td>2026-01-21 13:32:00</td>
 <td>Leg 2 out</td>
-<td></td>
+<td>Calibration 2</td>
 </tr>
 <tr>
 <td>8</td>
@@ -76,7 +76,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>9</td>
 <td>2026-01-21 13:46:00</td>
 <td>Leg 2 ret</td>
-<td></td>
+<td>Calibration 2</td>
 </tr>
 <tr>
 <td>10</td>
@@ -88,7 +88,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>11</td>
 <td>2026-01-21 13:58:00</td>
 <td>Leg 3 out</td>
-<td></td>
+<td>Calibration 3</td>
 </tr>
 <tr>
 <td>12</td>
@@ -100,7 +100,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>13</td>
 <td>2026-01-21 14:11:00</td>
 <td>Leg 3 ret</td>
-<td></td>
+<td>Calibration 3</td>
 </tr>
 <tr>
 <td>14</td>
@@ -137,7 +137,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>1</td>
 <td>2026-01-21 18:28:00</td>
 <td>Transit to Neumayer</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>2</td>
@@ -181,13 +181,13 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>0</td>
 <td>2026-01-22 12:43:00</td>
 <td>Take off</td>
-<td></td>
+<td>Cycling over Kohnen</td>
 </tr>
 <tr>
 <td>1</td>
 <td>2026-01-22 13:00:00</td>
 <td>Going south</td>
-<td></td>
+<td>At 4000 m</td>
 </tr>
 <tr>
 <td>2</td>
@@ -199,7 +199,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>3</td>
 <td>2026-01-22 13:19:00</td>
 <td>Back north</td>
-<td></td>
+<td>At 4000 m</td>
 </tr>
 <tr>
 <td>4</td>
@@ -247,7 +247,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>11</td>
 <td>2026-01-22 14:30:00</td>
 <td>North @ 1500 ft</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>12</td>
@@ -278,7 +278,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>0</td>
 <td>2026-01-24 09:41:00</td>
 <td>Take off</td>
-<td></td>
+<td>Ascent</td>
 </tr>
 <tr>
 <td>1</td>
@@ -290,37 +290,37 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>2</td>
 <td>2026-01-24 10:09:00</td>
 <td>Descent, change heading</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>3</td>
 <td>2026-01-24 10:15:00</td>
 <td>Transit</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>4</td>
 <td>2026-01-24 10:27:00</td>
 <td>Ascent, change heading</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>5</td>
 <td>2026-01-24 10:35:00</td>
 <td>South @ 4000 m</td>
-<td></td>
+<td>Original track</td>
 </tr>
 <tr>
 <td>6</td>
 <td>2026-01-24 11:08:00</td>
 <td>Descent</td>
-<td></td>
+<td>Profile</td>
 </tr>
 <tr>
 <td>7</td>
 <td>2026-01-24 11:14:30</td>
 <td>Ascent</td>
-<td></td>
+<td>Profile</td>
 </tr>
 <tr>
 <td>8</td>
@@ -338,7 +338,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>10</td>
 <td>2026-01-24 11:59:00</td>
 <td>Landing</td>
-<td></td>
+<td>At Kohnen</td>
 </tr>
 <tr>
 <td rowspan="27">32</td>
@@ -363,7 +363,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>3</td>
 <td>2026-01-24 14:11:00</td>
 <td>South @ 1500 ft</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>4</td>
@@ -399,7 +399,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>9</td>
 <td>2026-01-24 14:54:00</td>
 <td>South @ 1500 ft</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>10</td>
@@ -411,7 +411,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>11</td>
 <td>2026-01-24 15:09:00</td>
 <td>South @ 4000 m</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>12</td>
@@ -423,7 +423,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>13</td>
 <td>2026-01-24 15:26:00</td>
 <td>North @ 4000 m</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>14</td>
@@ -441,7 +441,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>16</td>
 <td>2026-01-24 15:58:00</td>
 <td>North @ 1500 ft</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>17</td>
@@ -501,7 +501,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>26</td>
 <td>2026-01-24 17:19:30</td>
 <td>Landing</td>
-<td></td>
+<td>At Kohnen</td>
 </tr>
 <tr>
 <td rowspan="15">33</td>
@@ -520,43 +520,43 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>2</td>
 <td>2026-01-24 19:26:00</td>
 <td>North @ 4000 m</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>3</td>
 <td>2026-01-24 19:35:30</td>
 <td>Ascent</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>4</td>
 <td>2026-01-24 19:37:00</td>
 <td>North </td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>5</td>
 <td>2026-01-24 19:45:30</td>
 <td>Descent</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>6</td>
 <td>2026-01-24 19:47:00</td>
 <td>North</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>7</td>
 <td>2026-01-24 19:55:00</td>
 <td>Descent</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>8</td>
 <td>2026-01-24 19:56:30</td>
 <td>North</td>
-<td></td>
+<td>Zig zag steps</td>
 </tr>
 <tr>
 <td>9</td>
@@ -592,7 +592,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>14</td>
 <td>2026-01-24 20:43:00</td>
 <td>Landing</td>
-<td></td>
+<td>At Neumayer</td>
 </tr>
 <tr>
 <td rowspan="17">4</td>
@@ -605,7 +605,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>1</td>
 <td>2026-01-25 09:03:00</td>
 <td>Transit</td>
-<td></td>
+<td>Includes high leg</td>
 </tr>
 <tr>
 <td>2</td>
@@ -623,7 +623,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>4</td>
 <td>2026-01-25 10:47:00</td>
 <td>Ladder leg 1</td>
-<td></td>
+<td>Low leg</td>
 </tr>
 <tr>
 <td>5</td>
@@ -635,7 +635,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>6</td>
 <td>2026-01-25 11:01:00</td>
 <td>Ladder leg 2</td>
-<td></td>
+<td>Middle leg 1</td>
 </tr>
 <tr>
 <td>7</td>
@@ -647,7 +647,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>8</td>
 <td>2026-01-25 11:18:00</td>
 <td>Ladder leg 3</td>
-<td></td>
+<td>Middle leg 2</td>
 </tr>
 <tr>
 <td>9</td>
@@ -659,7 +659,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>10</td>
 <td>2026-01-25 11:29:00</td>
 <td>Leg out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>11</td>
@@ -671,7 +671,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>12</td>
 <td>2026-01-25 11:39:00</td>
 <td>Leg ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>13</td>
@@ -708,7 +708,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>1</td>
 <td>2026-01-25 15:16:00</td>
 <td>Transit</td>
-<td></td>
+<td>Includes high leg</td>
 </tr>
 <tr>
 <td>2</td>
@@ -732,7 +732,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>5</td>
 <td>2026-01-25 17:24:00</td>
 <td>Ladder leg 1</td>
-<td></td>
+<td>Even a bit lower</td>
 </tr>
 <tr>
 <td>6</td>
@@ -744,7 +744,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>7</td>
 <td>2026-01-25 17:41:00</td>
 <td>Ladder leg 2</td>
-<td></td>
+<td>Middle leg 1</td>
 </tr>
 <tr>
 <td>8</td>
@@ -756,7 +756,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>9</td>
 <td>2026-01-25 17:57:00</td>
 <td>Ladder leg 3</td>
-<td></td>
+<td>Middle leg 2</td>
 </tr>
 <tr>
 <td>10</td>
@@ -768,7 +768,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>11</td>
 <td>2026-01-25 18:10:00</td>
 <td>Leg out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>12</td>
@@ -780,7 +780,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>13</td>
 <td>2026-01-25 18:21:00</td>
 <td>Leg ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>14</td>
@@ -835,7 +835,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>4</td>
 <td>2026-01-26 14:49:00</td>
 <td>Ladder leg 1</td>
-<td></td>
+<td>Low leg</td>
 </tr>
 <tr>
 <td>5</td>
@@ -847,7 +847,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>6</td>
 <td>2026-01-26 15:08:00</td>
 <td>Ladder leg 2</td>
-<td></td>
+<td>Middle leg</td>
 </tr>
 <tr>
 <td>7</td>
@@ -859,7 +859,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>8</td>
 <td>2026-01-26 15:27:00</td>
 <td>Ladder leg 3</td>
-<td></td>
+<td>High leg</td>
 </tr>
 <tr>
 <td>9</td>
@@ -883,7 +883,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>12</td>
 <td>2026-01-26 16:01:00</td>
 <td>Ladder leg 1</td>
-<td></td>
+<td>Low leg</td>
 </tr>
 <tr>
 <td>13</td>
@@ -895,7 +895,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>14</td>
 <td>2026-01-26 16:17:00</td>
 <td>Ladder leg 2</td>
-<td></td>
+<td>Middle leg</td>
 </tr>
 <tr>
 <td>15</td>
@@ -907,7 +907,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>16</td>
 <td>2026-01-26 16:39:00</td>
 <td>Ladder leg 3</td>
-<td></td>
+<td>High leg</td>
 </tr>
 <tr>
 <td>17</td>
@@ -919,7 +919,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>18</td>
 <td>2026-01-26 17:05:00</td>
 <td>Ladder leg 1</td>
-<td></td>
+<td>Low leg</td>
 </tr>
 <tr>
 <td>19</td>
@@ -931,7 +931,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>20</td>
 <td>2026-01-26 17:25:00</td>
 <td>Ladder leg 2</td>
-<td></td>
+<td>Middle leg</td>
 </tr>
 <tr>
 <td>21</td>
@@ -943,7 +943,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>22</td>
 <td>2026-01-26 17:47:00</td>
 <td>Ladder leg 3</td>
-<td></td>
+<td>High leg</td>
 </tr>
 <tr>
 <td>23</td>
@@ -980,25 +980,25 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>3</td>
 <td>2026-01-27 10:22:00</td>
 <td>Descent and turn</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>4</td>
 <td>2026-01-27 10:29:00</td>
 <td>Descent</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>5</td>
 <td>2026-01-27 10:48:00</td>
 <td>Descent</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>6</td>
 <td>2026-01-27 11:02:00</td>
 <td>Ascent and different heading</td>
-<td></td>
+<td>Cloud detour</td>
 </tr>
 <tr>
 <td>7</td>
@@ -1010,7 +1010,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>8</td>
 <td>2026-01-27 11:29:00</td>
 <td>Leg out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>9</td>
@@ -1022,7 +1022,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>10</td>
 <td>2026-01-27 11:39:00</td>
 <td>Leg ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>11</td>
@@ -1059,7 +1059,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>1</td>
 <td>2026-01-27 14:13:00</td>
 <td>Radiation square leg 1</td>
-<td></td>
+<td>Radiation square and calibration</td>
 </tr>
 <tr>
 <td>2</td>
@@ -1071,7 +1071,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>3</td>
 <td>2026-01-27 14:20:30</td>
 <td>Radiation square leg 2</td>
-<td></td>
+<td>Radiation square and calibration</td>
 </tr>
 <tr>
 <td>4</td>
@@ -1083,7 +1083,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>5</td>
 <td>2026-01-27 14:26:45</td>
 <td>Radiation square leg 3</td>
-<td></td>
+<td>Radiation square and calibration</td>
 </tr>
 <tr>
 <td>6</td>
@@ -1095,7 +1095,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>7</td>
 <td>2026-01-27 14:33:00</td>
 <td>Radiation square leg 4</td>
-<td></td>
+<td>Radiation square and calibration</td>
 </tr>
 <tr>
 <td>8</td>
@@ -1107,7 +1107,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>9</td>
 <td>2026-01-27 14:57:00</td>
 <td>Ladder leg 1 out</td>
-<td></td>
+<td>High leg and calibration 1</td>
 </tr>
 <tr>
 <td>10</td>
@@ -1119,7 +1119,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>11</td>
 <td>2026-01-27 15:11:00</td>
 <td>Ladder leg 1 ret</td>
-<td></td>
+<td>High leg and calibration 1</td>
 </tr>
 <tr>
 <td>12</td>
@@ -1131,7 +1131,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>13</td>
 <td>2026-01-27 15:33:00</td>
 <td>Ladder leg 2 out</td>
-<td></td>
+<td>Middle leg 1 (higher) and calibration 2</td>
 </tr>
 <tr>
 <td>14</td>
@@ -1143,7 +1143,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>15</td>
 <td>2026-01-27 15:45:00</td>
 <td>Ladder leg 2 ret</td>
-<td></td>
+<td>Middle leg 1 (higher) and calibration 2</td>
 </tr>
 <tr>
 <td>16</td>
@@ -1155,7 +1155,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>17</td>
 <td>2026-01-27 15:59:00</td>
 <td>Ladder leg 3 out</td>
-<td></td>
+<td>Middle leg 2 (lower) and calibration 3</td>
 </tr>
 <tr>
 <td>18</td>
@@ -1167,7 +1167,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>19</td>
 <td>2026-01-27 16:11:00</td>
 <td>Ladder leg 3 ret</td>
-<td></td>
+<td>Middle leg 2 (lower) and calibration 3</td>
 </tr>
 <tr>
 <td>20</td>
@@ -1179,7 +1179,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>21</td>
 <td>2026-01-27 16:25:00</td>
 <td>Ladder leg 4 out</td>
-<td></td>
+<td>Low leg and calibration 4</td>
 </tr>
 <tr>
 <td>22</td>
@@ -1191,7 +1191,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>23</td>
 <td>2026-01-27 16:37:00</td>
 <td>Ladder leg 4 ret</td>
-<td></td>
+<td>Low leg and calibration 4</td>
 </tr>
 <tr>
 <td>24</td>
@@ -1282,7 +1282,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>12</td>
 <td>2026-01-29 11:47:00</td>
 <td>Detour and turn</td>
-<td></td>
+<td>Ice berg</td>
 </tr>
 <tr>
 <td>13</td>
@@ -1294,7 +1294,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>14</td>
 <td>2026-01-29 12:12:00</td>
 <td>Leg out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>15</td>
@@ -1306,7 +1306,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>16</td>
 <td>2026-01-29 12:21:00</td>
 <td>Leg ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>17</td>
@@ -1318,7 +1318,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>18</td>
 <td>2026-01-29 12:28:00</td>
 <td>Low leg</td>
-<td></td>
+<td>DATA GAP!</td>
 </tr>
 <tr>
 <td>19</td>
@@ -1361,7 +1361,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>1</td>
 <td>2026-01-29 15:06:00</td>
 <td>Low transit</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>2</td>
@@ -1391,19 +1391,19 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>6</td>
 <td>2026-01-29 16:42:30</td>
 <td>Middle leg</td>
-<td></td>
+<td>Avoid clouds</td>
 </tr>
 <tr>
 <td>7</td>
 <td>2026-01-29 16:50:00</td>
 <td>Ascent</td>
-<td></td>
+<td>Above clouds</td>
 </tr>
 <tr>
 <td>8</td>
 <td>2026-01-29 16:54:00</td>
 <td>Leg out</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>9</td>
@@ -1415,7 +1415,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>10</td>
 <td>2026-01-29 17:05:00</td>
 <td>Leg ret</td>
-<td></td>
+<td>Calibration 1</td>
 </tr>
 <tr>
 <td>11</td>
@@ -1433,13 +1433,13 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 <td>13</td>
 <td>2026-01-29 17:22:00</td>
 <td>Low transit</td>
-<td></td>
+<td>Terrain following</td>
 </tr>
 <tr>
 <td>14</td>
 <td>2026-01-29 17:45:00</td>
 <td>Transit</td>
-<td></td>
+<td>Ascent above clouds</td>
 </tr>
 <tr>
 <td>15</td>
