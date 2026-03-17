@@ -4,7 +4,7 @@ Processing documentation for the SANAT aircraft campaign with Polar 6
 
 ## Flight segments
 
-<table style="font-size:90%; border-collapse:collapse;">
+<table style="font-size:80%; border-collapse:collapse;">
 
 <thead>
 <tr>
