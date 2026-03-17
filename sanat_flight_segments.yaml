@@ -1,0 +1,977 @@
+flights:
+  11:
+    segments:
+    - segment: 0
+      time: '2026-01-21 12:41:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-21 12:45:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-21 12:55:00'
+      type: Turn
+      comment: ''
+    - segment: 3
+      time: '2026-01-21 13:04:00'
+      type: Leg 1 out
+      comment: ''
+    - segment: 4
+      time: '2026-01-21 13:13:00'
+      type: Turn
+      comment: ''
+    - segment: 5
+      time: '2026-01-21 13:19:00'
+      type: Leg 1 ret
+      comment: ''
+    - segment: 6
+      time: '2026-01-21 13:26:00'
+      type: Turn
+      comment: ''
+    - segment: 7
+      time: '2026-01-21 13:32:00'
+      type: Leg 2 out
+      comment: ''
+    - segment: 8
+      time: '2026-01-21 13:42:00'
+      type: Turn
+      comment: ''
+    - segment: 9
+      time: '2026-01-21 13:46:00'
+      type: Leg 2 ret
+      comment: ''
+    - segment: 10
+      time: '2026-01-21 13:53:00'
+      type: Turn
+      comment: ''
+    - segment: 11
+      time: '2026-01-21 13:58:00'
+      type: Leg 3 out
+      comment: ''
+    - segment: 12
+      time: '2026-01-21 14:06:00'
+      type: Turn
+      comment: ''
+    - segment: 13
+      time: '2026-01-21 14:11:00'
+      type: Leg 3 ret
+      comment: ''
+    - segment: 14
+      time: '2026-01-21 14:17:00'
+      type: Turn and ascent
+      comment: ''
+    - segment: 15
+      time: '2026-01-21 14:40:00'
+      type: Transit to Kohnen
+      comment: ''
+    - segment: 16
+      time: '2026-01-21 16:16:00'
+      type: Approach
+      comment: ''
+    - segment: 17
+      time: '2026-01-21 16:25:00'
+      type: Landing
+      comment: ''
+  12:
+    segments:
+    - segment: 0
+      time: '2026-01-21 18:22:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-21 18:28:00'
+      type: Transit to Neumayer
+      comment: ''
+    - segment: 2
+      time: '2026-01-21 20:32:00'
+      type: Approach
+      comment: ''
+    - segment: 3
+      time: '2026-01-21 20:39:30'
+      type: Landing
+      comment: ''
+  21:
+    segments:
+    - segment: 0
+      time: '2026-01-22 09:28:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-22 09:47:00'
+      type: Transit to Kohnen
+      comment: ''
+    - segment: 2
+      time: '2026-01-22 11:24:00'
+      type: Approach
+      comment: ''
+    - segment: 3
+      time: '2026-01-22 11:35:00'
+      type: Landing
+      comment: ''
+  22:
+    segments:
+    - segment: 0
+      time: '2026-01-22 12:43:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-22 13:00:00'
+      type: Going south
+      comment: ''
+    - segment: 2
+      time: '2026-01-22 13:17:00'
+      type: Turn
+      comment: ''
+    - segment: 3
+      time: '2026-01-22 13:19:00'
+      type: Back north
+      comment: ''
+    - segment: 4
+      time: '2026-01-22 13:31:00'
+      type: Descent
+      comment: ''
+    - segment: 5
+      time: '2026-01-22 13:36:00'
+      type: North @ 2000 ft
+      comment: ''
+    - segment: 6
+      time: '2026-01-22 13:39:00'
+      type: Descent
+      comment: ''
+    - segment: 7
+      time: '2026-01-22 13:42:00'
+      type: North @ 1500 ft
+      comment: ''
+    - segment: 8
+      time: '2026-01-22 13:58:00'
+      type: Ascent
+      comment: ''
+    - segment: 9
+      time: '2026-01-22 14:05:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 10
+      time: '2026-01-22 14:23:00'
+      type: Descent
+      comment: ''
+    - segment: 11
+      time: '2026-01-22 14:30:00'
+      type: North @ 1500 ft
+      comment: ''
+    - segment: 12
+      time: '2026-01-22 14:48:00'
+      type: Ascent
+      comment: ''
+    - segment: 13
+      time: '2026-01-22 15:03:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 14
+      time: '2026-01-22 15:24:00'
+      type: Descent, turn, and approach
+      comment: ''
+    - segment: 15
+      time: '2026-01-22 15:41:00'
+      type: Landing
+      comment: ''
+  31:
+    segments:
+    - segment: 0
+      time: '2026-01-24 09:41:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-24 10:00:00'
+      type: South @ 4000 m
+      comment: ''
+    - segment: 2
+      time: '2026-01-24 10:09:00'
+      type: Descent, change heading
+      comment: ''
+    - segment: 3
+      time: '2026-01-24 10:15:00'
+      type: Transit
+      comment: ''
+    - segment: 4
+      time: '2026-01-24 10:27:00'
+      type: Ascent, change heading
+      comment: ''
+    - segment: 5
+      time: '2026-01-24 10:35:00'
+      type: South @ 4000 m
+      comment: ''
+    - segment: 6
+      time: '2026-01-24 11:08:00'
+      type: Descent
+      comment: ''
+    - segment: 7
+      time: '2026-01-24 11:14:30'
+      type: Ascent
+      comment: ''
+    - segment: 8
+      time: '2026-01-24 11:21:00'
+      type: Transit to Kohnen
+      comment: ''
+    - segment: 9
+      time: '2026-01-24 11:52:00'
+      type: Approach
+      comment: ''
+    - segment: 10
+      time: '2026-01-24 11:59:00'
+      type: Landing
+      comment: ''
+  32:
+    segments:
+    - segment: 0
+      time: '2026-01-24 13:27:30'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-24 13:33:00'
+      type: South @ 4000 m
+      comment: ''
+    - segment: 2
+      time: '2026-01-24 14:06:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2026-01-24 14:11:00'
+      type: South @ 1500 ft
+      comment: ''
+    - segment: 4
+      time: '2026-01-24 14:25:00'
+      type: Ascent
+      comment: ''
+    - segment: 5
+      time: '2026-01-24 14:32:00'
+      type: South @ 4000 m
+      comment: ''
+    - segment: 6
+      time: '2026-01-24 14:36:30'
+      type: Ascent
+      comment: ''
+    - segment: 7
+      time: '2026-01-24 14:39:00'
+      type: South @ 4200 m
+      comment: ''
+    - segment: 8
+      time: '2026-01-24 14:47:00'
+      type: Descent
+      comment: ''
+    - segment: 9
+      time: '2026-01-24 14:54:00'
+      type: South @ 1500 ft
+      comment: ''
+    - segment: 10
+      time: '2026-01-24 15:01:00'
+      type: Ascent
+      comment: ''
+    - segment: 11
+      time: '2026-01-24 15:09:00'
+      type: South @ 4000 m
+      comment: ''
+    - segment: 12
+      time: '2026-01-24 15:19:00'
+      type: Turn
+      comment: ''
+    - segment: 13
+      time: '2026-01-24 15:26:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 14
+      time: '2026-01-24 15:36:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 15
+      time: '2026-01-24 15:51:00'
+      type: Descent
+      comment: ''
+    - segment: 16
+      time: '2026-01-24 15:58:00'
+      type: North @ 1500 ft
+      comment: ''
+    - segment: 17
+      time: '2026-01-24 16:12:00'
+      type: Ascent
+      comment: ''
+    - segment: 18
+      time: '2026-01-24 16:16:00'
+      type: North
+      comment: ''
+    - segment: 19
+      time: '2026-01-24 16:34:00'
+      type: Descent
+      comment: ''
+    - segment: 20
+      time: '2026-01-24 16:37:00'
+      type: North
+      comment: ''
+    - segment: 21
+      time: '2026-01-24 16:44:00'
+      type: Ascent
+      comment: ''
+    - segment: 22
+      time: '2026-01-24 16:49:00'
+      type: North
+      comment: ''
+    - segment: 23
+      time: '2026-01-24 16:59:00'
+      type: Ascent
+      comment: ''
+    - segment: 24
+      time: '2026-01-24 17:05:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 25
+      time: '2026-01-24 17:11:00'
+      type: Approach
+      comment: ''
+    - segment: 26
+      time: '2026-01-24 17:19:30'
+      type: Landing
+      comment: ''
+  33:
+    segments:
+    - segment: 0
+      time: '2026-01-24 18:53:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-24 19:01:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 2
+      time: '2026-01-24 19:26:00'
+      type: North @ 4000 m
+      comment: ''
+    - segment: 3
+      time: '2026-01-24 19:35:30'
+      type: Ascent
+      comment: ''
+    - segment: 4
+      time: '2026-01-24 19:37:00'
+      type: 'North '
+      comment: ''
+    - segment: 5
+      time: '2026-01-24 19:45:30'
+      type: Descent
+      comment: ''
+    - segment: 6
+      time: '2026-01-24 19:47:00'
+      type: North
+      comment: ''
+    - segment: 7
+      time: '2026-01-24 19:55:00'
+      type: Descent
+      comment: ''
+    - segment: 8
+      time: '2026-01-24 19:56:30'
+      type: North
+      comment: ''
+    - segment: 9
+      time: '2026-01-24 20:00:00'
+      type: Descent
+      comment: ''
+    - segment: 10
+      time: '2026-01-24 20:02:00'
+      type: Transit
+      comment: ''
+    - segment: 11
+      time: '2026-01-24 20:20:30'
+      type: Descent
+      comment: ''
+    - segment: 12
+      time: '2026-01-24 20:25:30'
+      type: Transit
+      comment: ''
+    - segment: 13
+      time: '2026-01-24 20:36:00'
+      type: Approach
+      comment: ''
+    - segment: 14
+      time: '2026-01-24 20:43:00'
+      type: Landing
+      comment: ''
+  4:
+    segments:
+    - segment: 0
+      time: '2026-01-25 08:47:30'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-25 09:03:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-25 10:27:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 3
+      time: '2026-01-25 10:40:00'
+      type: Slow descent
+      comment: ''
+    - segment: 4
+      time: '2026-01-25 10:47:00'
+      type: Ladder leg 1
+      comment: ''
+    - segment: 5
+      time: '2026-01-25 10:57:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 6
+      time: '2026-01-25 11:01:00'
+      type: Ladder leg 2
+      comment: ''
+    - segment: 7
+      time: '2026-01-25 11:13:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 8
+      time: '2026-01-25 11:18:00'
+      type: Ladder leg 3
+      comment: ''
+    - segment: 9
+      time: '2026-01-25 11:27:00'
+      type: Ascent
+      comment: ''
+    - segment: 10
+      time: '2026-01-25 11:29:00'
+      type: Leg out
+      comment: ''
+    - segment: 11
+      time: '2026-01-25 11:35:30'
+      type: Turn
+      comment: ''
+    - segment: 12
+      time: '2026-01-25 11:39:00'
+      type: Leg ret
+      comment: ''
+    - segment: 13
+      time: '2026-01-25 11:45:30'
+      type: Ascent
+      comment: ''
+    - segment: 14
+      time: '2026-01-25 12:04:00'
+      type: Transit
+      comment: ''
+    - segment: 15
+      time: '2026-01-25 12:44:00'
+      type: Approach
+      comment: ''
+    - segment: 16
+      time: '2026-01-25 13:01:00'
+      type: Landing
+      comment: ''
+  5:
+    segments:
+    - segment: 0
+      time: '2026-01-25 15:00:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-25 15:16:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-25 16:48:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2026-01-25 17:03:00'
+      type: Low leg
+      comment: ''
+    - segment: 4
+      time: '2026-01-25 17:22:00'
+      type: Descent
+      comment: ''
+    - segment: 5
+      time: '2026-01-25 17:24:00'
+      type: Ladder leg 1
+      comment: ''
+    - segment: 6
+      time: '2026-01-25 17:36:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 7
+      time: '2026-01-25 17:41:00'
+      type: Ladder leg 2
+      comment: ''
+    - segment: 8
+      time: '2026-01-25 17:53:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 9
+      time: '2026-01-25 17:57:00'
+      type: Ladder leg 3
+      comment: ''
+    - segment: 10
+      time: '2026-01-25 18:08:00'
+      type: Ascent
+      comment: ''
+    - segment: 11
+      time: '2026-01-25 18:10:00'
+      type: Leg out
+      comment: ''
+    - segment: 12
+      time: '2026-01-25 18:16:00'
+      type: Turn
+      comment: ''
+    - segment: 13
+      time: '2026-01-25 18:21:00'
+      type: Leg ret
+      comment: ''
+    - segment: 14
+      time: '2026-01-25 18:29:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 15
+      time: '2026-01-25 18:40:00'
+      type: Transit
+      comment: ''
+    - segment: 16
+      time: '2026-01-25 19:25:00'
+      type: Approach
+      comment: ''
+    - segment: 17
+      time: '2026-01-25 19:38:00'
+      type: Landing
+      comment: ''
+  6:
+    segments:
+    - segment: 0
+      time: '2026-01-26 14:25:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-26 14:32:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-26 14:34:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2026-01-26 14:42:00'
+      type: Turn
+      comment: ''
+    - segment: 4
+      time: '2026-01-26 14:49:00'
+      type: Ladder leg 1
+      comment: ''
+    - segment: 5
+      time: '2026-01-26 14:57:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 6
+      time: '2026-01-26 15:08:00'
+      type: Ladder leg 2
+      comment: ''
+    - segment: 7
+      time: '2026-01-26 15:19:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 8
+      time: '2026-01-26 15:27:00'
+      type: Ladder leg 3
+      comment: ''
+    - segment: 9
+      time: '2026-01-26 15:40:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 10
+      time: '2026-01-26 15:53:00'
+      type: Transit
+      comment: ''
+    - segment: 11
+      time: '2026-01-26 15:57:00'
+      type: Turn
+      comment: ''
+    - segment: 12
+      time: '2026-01-26 16:01:00'
+      type: Ladder leg 1
+      comment: ''
+    - segment: 13
+      time: '2026-01-26 16:12:30'
+      type: Ascent and turn
+      comment: ''
+    - segment: 14
+      time: '2026-01-26 16:17:00'
+      type: Ladder leg 2
+      comment: ''
+    - segment: 15
+      time: '2026-01-26 16:30:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 16
+      time: '2026-01-26 16:39:00'
+      type: Ladder leg 3
+      comment: ''
+    - segment: 17
+      time: '2026-01-26 16:50:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 18
+      time: '2026-01-26 17:05:00'
+      type: Ladder leg 1
+      comment: ''
+    - segment: 19
+      time: '2026-01-26 17:20:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 20
+      time: '2026-01-26 17:25:00'
+      type: Ladder leg 2
+      comment: ''
+    - segment: 21
+      time: '2026-01-26 17:39:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 22
+      time: '2026-01-26 17:47:00'
+      type: Ladder leg 3
+      comment: ''
+    - segment: 23
+      time: '2026-01-26 18:03:00'
+      type: Approach
+      comment: ''
+    - segment: 24
+      time: '2026-01-26 18:27:00'
+      type: Landing
+      comment: ''
+  7:
+    segments:
+    - segment: 0
+      time: '2026-01-27 09:06:30'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-27 09:27:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-27 10:05:00'
+      type: Change of heading
+      comment: ''
+    - segment: 3
+      time: '2026-01-27 10:22:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 4
+      time: '2026-01-27 10:29:00'
+      type: Descent
+      comment: ''
+    - segment: 5
+      time: '2026-01-27 10:48:00'
+      type: Descent
+      comment: ''
+    - segment: 6
+      time: '2026-01-27 11:02:00'
+      type: Ascent and different heading
+      comment: ''
+    - segment: 7
+      time: '2026-01-27 11:12:00'
+      type: Descent
+      comment: ''
+    - segment: 8
+      time: '2026-01-27 11:29:00'
+      type: Leg out
+      comment: ''
+    - segment: 9
+      time: '2026-01-27 11:35:00'
+      type: Turn
+      comment: ''
+    - segment: 10
+      time: '2026-01-27 11:39:00'
+      type: Leg ret
+      comment: ''
+    - segment: 11
+      time: '2026-01-27 11:46:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 12
+      time: '2026-01-27 11:48:00'
+      type: Transit
+      comment: ''
+    - segment: 13
+      time: '2026-01-27 12:02:00'
+      type: Approach
+      comment: ''
+    - segment: 14
+      time: '2026-01-27 12:11:30'
+      type: Landing
+      comment: ''
+  8:
+    segments:
+    - segment: 0
+      time: '2026-01-27 14:03:30'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-27 14:13:00'
+      type: Radiation square leg 1
+      comment: ''
+    - segment: 2
+      time: '2026-01-27 14:16:30'
+      type: Turn
+      comment: ''
+    - segment: 3
+      time: '2026-01-27 14:20:30'
+      type: Radiation square leg 2
+      comment: ''
+    - segment: 4
+      time: '2026-01-27 14:23:30'
+      type: Turn
+      comment: ''
+    - segment: 5
+      time: '2026-01-27 14:26:45'
+      type: Radiation square leg 3
+      comment: ''
+    - segment: 6
+      time: '2026-01-27 14:29:30'
+      type: Turn
+      comment: ''
+    - segment: 7
+      time: '2026-01-27 14:33:00'
+      type: Radiation square leg 4
+      comment: ''
+    - segment: 8
+      time: '2026-01-27 14:36:20'
+      type: Ascent
+      comment: ''
+    - segment: 9
+      time: '2026-01-27 14:57:00'
+      type: Ladder leg 1 out
+      comment: ''
+    - segment: 10
+      time: '2026-01-27 15:06:00'
+      type: Turn
+      comment: ''
+    - segment: 11
+      time: '2026-01-27 15:11:00'
+      type: Ladder leg 1 ret
+      comment: ''
+    - segment: 12
+      time: '2026-01-27 15:22:00'
+      type: Turn and descent
+      comment: ''
+    - segment: 13
+      time: '2026-01-27 15:33:00'
+      type: Ladder leg 2 out
+      comment: ''
+    - segment: 14
+      time: '2026-01-27 15:40:30'
+      type: Turn
+      comment: ''
+    - segment: 15
+      time: '2026-01-27 15:45:00'
+      type: Ladder leg 2 ret
+      comment: ''
+    - segment: 16
+      time: '2026-01-27 15:54:00'
+      type: Turn and descent
+      comment: ''
+    - segment: 17
+      time: '2026-01-27 15:59:00'
+      type: Ladder leg 3 out
+      comment: ''
+    - segment: 18
+      time: '2026-01-27 16:07:00'
+      type: Turn
+      comment: ''
+    - segment: 19
+      time: '2026-01-27 16:11:00'
+      type: Ladder leg 3 ret
+      comment: ''
+    - segment: 20
+      time: '2026-01-27 16:20:00'
+      type: Turn and descent
+      comment: ''
+    - segment: 21
+      time: '2026-01-27 16:25:00'
+      type: Ladder leg 4 out
+      comment: ''
+    - segment: 22
+      time: '2026-01-27 16:33:00'
+      type: Turn
+      comment: ''
+    - segment: 23
+      time: '2026-01-27 16:37:00'
+      type: Ladder leg 4 ret
+      comment: ''
+    - segment: 24
+      time: '2026-01-27 16:47:00'
+      type: Approach
+      comment: ''
+    - segment: 25
+      time: '2026-01-27 17:00:00'
+      type: Landing
+      comment: ''
+  9:
+    segments:
+    - segment: 0
+      time: '2026-01-29 09:02:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-29 09:10:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-29 09:32:00'
+      type: Turn
+      comment: ''
+    - segment: 3
+      time: '2026-01-29 09:36:30'
+      type: Descent
+      comment: ''
+    - segment: 4
+      time: '2026-01-29 09:53:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 5
+      time: '2026-01-29 10:09:00'
+      type: High leg
+      comment: ''
+    - segment: 6
+      time: '2026-01-29 10:29:00'
+      type: "Turn (270\u02DA)"
+      comment: ''
+    - segment: 7
+      time: '2026-01-29 10:33:00'
+      type: High leg
+      comment: ''
+    - segment: 8
+      time: '2026-01-29 10:54:00'
+      type: Descent
+      comment: ''
+    - segment: 9
+      time: '2026-01-29 10:59:30'
+      type: Middle leg
+      comment: ''
+    - segment: 10
+      time: '2026-01-29 11:17:00'
+      type: "Turn (270\u02DA)"
+      comment: ''
+    - segment: 11
+      time: '2026-01-29 11:21:00'
+      type: Middle leg
+      comment: ''
+    - segment: 12
+      time: '2026-01-29 11:47:00'
+      type: Detour and turn
+      comment: ''
+    - segment: 13
+      time: '2026-01-29 11:58:00'
+      type: Middle leg
+      comment: ''
+    - segment: 14
+      time: '2026-01-29 12:12:00'
+      type: Leg out
+      comment: ''
+    - segment: 15
+      time: '2026-01-29 12:17:00'
+      type: Turn
+      comment: ''
+    - segment: 16
+      time: '2026-01-29 12:21:00'
+      type: Leg ret
+      comment: ''
+    - segment: 17
+      time: '2026-01-29 12:26:00'
+      type: Descent
+      comment: ''
+    - segment: 18
+      time: '2026-01-29 12:28:00'
+      type: Low leg
+      comment: ''
+    - segment: 19
+      time: '2026-01-29 12:51:00'
+      type: Low leg
+      comment: ''
+    - segment: 20
+      time: '2026-01-29 12:57:00'
+      type: Ascent
+      comment: ''
+    - segment: 21
+      time: '2026-01-29 13:03:00'
+      type: Transit
+      comment: ''
+    - segment: 22
+      time: '2026-01-29 13:15:00'
+      type: Approach
+      comment: ''
+    - segment: 23
+      time: '2026-01-29 13:27:00'
+      type: Landing
+      comment: ''
+  10:
+    segments:
+    - segment: 0
+      time: '2026-01-29 15:04:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2026-01-29 15:06:00'
+      type: Low transit
+      comment: ''
+    - segment: 2
+      time: '2026-01-29 15:53:00'
+      type: Ascent
+      comment: ''
+    - segment: 3
+      time: '2026-01-29 16:11:00'
+      type: Transit and turn
+      comment: ''
+    - segment: 4
+      time: '2026-01-29 16:19:00'
+      type: High transit
+      comment: ''
+    - segment: 5
+      time: '2026-01-29 16:37:30'
+      type: Descent and turn
+      comment: ''
+    - segment: 6
+      time: '2026-01-29 16:42:30'
+      type: Middle leg
+      comment: ''
+    - segment: 7
+      time: '2026-01-29 16:50:00'
+      type: Ascent
+      comment: ''
+    - segment: 8
+      time: '2026-01-29 16:54:00'
+      type: Leg out
+      comment: ''
+    - segment: 9
+      time: '2026-01-29 17:00:00'
+      type: Turn
+      comment: ''
+    - segment: 10
+      time: '2026-01-29 17:05:00'
+      type: Leg ret
+      comment: ''
+    - segment: 11
+      time: '2026-01-29 17:10:00'
+      type: Descent
+      comment: ''
+    - segment: 12
+      time: '2026-01-29 17:19:00'
+      type: Descent
+      comment: ''
+    - segment: 13
+      time: '2026-01-29 17:22:00'
+      type: Low transit
+      comment: ''
+    - segment: 14
+      time: '2026-01-29 17:45:00'
+      type: Transit
+      comment: ''
+    - segment: 15
+      time: '2026-01-29 18:10:00'
+      type: Approach
+      comment: ''
+    - segment: 16
+      time: '2026-01-29 18:19:00'
+      type: Landing
+      comment: ''
