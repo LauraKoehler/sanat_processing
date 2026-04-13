@@ -147,7 +147,7 @@ tbird:
       comment: INAT ground speed
     
     pitch:
-      old: pitch_inat
+      old: pitch_inat_corr
       long_name: pitch
       standard_name: platform_pitch
       platform: tbird
@@ -155,7 +155,7 @@ tbird:
       comment: INAT pitch
     
     roll:
-      old: roll_inat
+      old: roll_inat_corr
       long_name: roll
       standard_name: platform_roll
       platform: tbird

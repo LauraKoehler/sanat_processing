@@ -1,5 +1,6 @@
 campaign:
   name: "SANAT"
+  tbird_reversed_antennas: True
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
