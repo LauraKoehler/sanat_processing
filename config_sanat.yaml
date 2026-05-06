@@ -1,6 +1,8 @@
 campaign:
   name: "SANAT"
+  platform: "Polar 6"
   tbird_reversed_antennas: True
+  noseboom_twist: -5.5784
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
@@ -10,6 +12,7 @@ paths:
   processing_log_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/"
   outdir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung"
   processed_variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_final_variable_attributes.yaml"
+  segments: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_flight_segments.yaml"
 
 metadata:
   author: "Laura Köhler"
