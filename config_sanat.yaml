@@ -36,7 +36,6 @@ instrument_metadata:
     author: "Laura Köhler, Jörg Hartmann"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     version: "v1.0.0"
     doi: "tba"
     conventions: "CF-1.7"
@@ -47,7 +46,6 @@ instrument_metadata:
     author: "Laura Köhler, Jörg Hartmann"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     version: "v1.0.0"
     doi: "tba"
     conventions: "CF-1.7"
@@ -58,7 +56,6 @@ instrument_metadata:
     author: "Laura Köhler, Zsofia Juranyi"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     serial: 62
     version: "v1.0.0"
     doi: "tba"
@@ -70,7 +67,6 @@ instrument_metadata:
     author: "Laura Köhler, Zsofia Juranyi"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     serial: 8353
     version: "v1.0.0"
     doi: "tba"
@@ -82,7 +78,6 @@ instrument_metadata:
     author: "Laura Köhler, Zsofia Juranyi"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     version: "v1.0.0"
     serial: 8149
     doi: "tba"
@@ -94,7 +89,6 @@ instrument_metadata:
     author: "Laura Köhler, Zsofia Juranyi"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     serial: 3071
     version: "v1.0.0"
     doi: "tba"
@@ -106,7 +100,6 @@ instrument_metadata:
     author: "Laura Köhler, Zsofia Juranyi"
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
-    date: "2026-08-12"
     instruments: "pyrgeometer & pyranometer top/bottom"
     version: "v1.0.0"
     doi: "tba"
