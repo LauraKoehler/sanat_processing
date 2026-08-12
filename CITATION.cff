@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Köhler"
+  given-names: "Laura"
+title: "SANAT: Turbulence and aerosol in situ aircraft observations in Antarctica (Neumayer III station) with Polar 6 and T-Bird"
+repository-code: "https://github.com/LauraKoehler/sanat_processing"
+abstract: "Scripts, information and polair settings for processing the data collected during the SANAT aircraft campaign."
+version: v1.0.0
+date-released: '2026-08-12'

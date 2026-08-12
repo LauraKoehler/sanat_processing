@@ -201,3 +201,251 @@ tbird:
       platform: tbird
       units: m s-1
       comment: from five hole probe pressures
+
+mcpc:
+
+    number_conc:
+      old: concent
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: mCPC
+      units_old: 1/cm^3
+      units: 1/m^3
+      comment: coincidence corrected concentration
+
+    p_amb:
+      old: pressur
+      long_name: ambient air pressure
+      standard_name: ""
+      platform: mCPC
+      units_old: mbar
+      units: Pa
+      comment: ambient pressure at inlet
+
+    t_amb:
+      old: inlttmp
+      long_name: inlet temperature
+      standard_name: ""
+      platform: mCPC
+      units_old: degC
+      units: K
+      comment: ambient temperature at inlet
+
+    flow_rate:
+      old: smpflow
+      long_name: sample flow rate
+      platform: mCPC
+      units_old: cm^3/min
+      units: m^3/s
+
+    error:
+      old: err_num
+      long_name: all errors
+      platform: mCPC
+      units_old: 1
+      units: 1
+      comment: see manual for error codes
+
+partector:
+
+    number_conc:
+      old: number
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: partector
+      units_old: 1/cm^3
+      units: 1/m^3
+
+    diameter:
+      old: diam
+      long_name: average particle diameter
+      standard_name: diameter_of_ambient_aerosol_particles
+      platform: partector
+      units_old: nm
+      units: m
+
+    rh:
+      old: RH
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: partector
+      units_old: percent
+      units: 1
+      comment: RH inside partector
+
+    p_amb:
+      old: P
+      long_name: air pressure
+      standard_name: ""
+      platform: partector
+      units_old: mbar
+      units: Pa
+      comment: ambient pressure inside partector
+
+    t_amb:
+      old: T
+      long_name: ambient temperature
+      standard_name: ""
+      platform: partector
+      units_old: degC
+      units: K
+      comment: temperature inside partector
+
+    flow_rate:
+      old: flow
+      long_name: sample flow rate
+      platform: partector
+      units_old: l/min
+      units: m^3/s
+
+    error:
+      old: error
+      long_name: "error code (0: no error)"
+      platform: partector
+      units_old: 1
+      units: 1
+      comment: see www.naneos.ch/pdf/Partector2_Errors_and_Limits.pdf
+
+partector_dms:
+
+    number_conc:
+      old: Number concentration
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: partector
+      units_old: 1/cm^3
+      units: 1/m^3
+
+    diameter:
+      old: Average particle diameter
+      long_name: average particle diameter
+      standard_name: diameter_of_ambient_aerosol_particles
+      platform: partector
+      units_old: nm
+      units: m
+
+    rh:
+      old: Internal relative humidity
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: partector
+      units_old: percent
+      units: 1
+      comment: RH inside partector
+
+    p_amb:
+      old: Air pressure
+      long_name: ambient pressure
+      standard_name: ""
+      platform: partector
+      units_old: mbar
+      units: Pa
+      comment: pressure inside partector
+
+    t_amb:
+      old: Internal temperature
+      long_name: ambient temperature
+      standard_name: ""
+      platform: partector
+      units_old: degC
+      units: K
+      comment: temperature inside partector
+
+    flow_rate:
+      old: Approximate flow through device
+      long_name: sample flow rate
+      platform: partector
+      units_old: l/min
+      units: m^3/s
+
+    error:
+      old: Error Number
+      long_name: "error code (0: no error)"
+      platform: partector
+      units_old: 1
+      units: 1
+      comment: see www.naneos.ch/pdf/Partector2_Errors_and_Limits.pdf
+
+kt19:
+
+    t_surface:
+      old: KT19 Serial
+      long_name: surface temperature
+      standard_name: surface_temperature
+      platform: kt19
+      units_old: degC
+      units: K
+
+radiation:
+
+    lw_down:
+      old: Pyrgeo_top.RAD_raw
+      long_name: longwave downward irradiance
+      standard_name: net_downward_longwave_flux_in_air
+      platform: pyrgeometer top
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110384
+      calibration: "2022-08-22"
+
+    t_lw_down:
+      old: Pyrgeo_top.T_raw
+      long_name: pyrgeometer downward body temperature
+      platform: pyrgeometer top
+      units_old: K
+      units: K
+      serial: 110384
+
+    lw_up:
+      old: Pyrgeo_bottom.RAD_raw
+      long_name: longwave upward irradiance
+      standard_name: net_upward_longwave_flux_in_air
+      platform: pyrgeometer bottom
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110385
+      calibration: "2022-09-19"
+
+    t_lw_up:
+      old: Pyrgeo_bottom.T_raw
+      long_name: pyrgeometer upward body temperature
+      platform: pyrgeometer bottom
+      units_old: K
+      units: K
+      serial: 110385
+
+    sw_down:
+      old: Pyrano_top.RAD_raw
+      long_name: shortwave downward irradiance
+      standard_name: net_downward_shortwave_flux_in_air
+      platform: pyranometer top
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110309
+      calibration: "2022-09-29"
+
+    t_sw_down:
+      old: Pyrano_top.T_raw
+      long_name: pyranometer downward body temperature
+      platform: pyranometer top
+      units_old: K
+      units: K
+      serial: 110309
+
+    sw_up:
+      old: Pyrano_bottom.RAD_raw
+      long_name: shortwave upward irradiance
+      standard_name: net_upward_shortwave_flux_in_air
+      platform: pyranometer bottom
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110293
+      calibration: "2022-09-29"
+
+    t_sw_up:
+      old: Pyrano_bottom.T_raw
+      long_name: pyranometer upward body temperature
+      platform: pyranometer bottom
+      units_old: K
+      units: K
+      serial: 110293

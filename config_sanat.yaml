@@ -2,24 +2,117 @@ campaign:
   name: "SANAT"
   platform: "Polar 6"
   tbird_reversed_antennas: True
-  noseboom_twist: -5.5784
+  noseboom_twist: 0
+  stp: [mcpc, partector, partector_dms]
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
-  variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/met_P6_varibles_sanat_2check.yaml"
-  calibration: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/calibration_sanat_2check.yaml"
-  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/fiveholeprobe_parameters_sanat_2check.yaml"
+  variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/met_P6_varibles_sanat.yaml"
+  calibration: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/calibration_sanat.yaml"
+  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/fiveholeprobe_parameters_sanat_2check.yaml"
   processing_log_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/"
-  outdir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung"
   processed_variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_final_variable_attributes.yaml"
   segments: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_flight_segments.yaml"
+outdirs:
+    raw: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/raw"
+    noseboom: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/noseboom"
+    tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/tbird"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/mcpc"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/partector"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/partector_tbird"
+    kt19: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/kt19"
+    radiation: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/radiation"
 
 metadata:
   author: "Laura Köhler"
   institution: "Alfred-Wegener-Institut"
   contact: "laura.koehler@awi.de"
-  date: "2026-02-08"
+  date: "2026-08-12"
   version: "v1.0.0"
+
+instrument_metadata:
+  noseboom:
+    title: "SANAT campaign with Polar 6: noseboom 100 Hz turbulence data of "
+    author: "Laura Köhler, Jörg Hartmann"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  tbird:
+    title: "SANAT campaign with Polar 6: T-Bird 100 Hz turbulence data of "
+    author: "Laura Köhler, Jörg Hartmann"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  mcpc:
+    title: "SANAT campaign with Polar 6: aMCPC of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    serial: 62
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  partector:
+    title: "SANAT campaign with Polar 6: Partector 2 (Polar 6) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    serial: 8353
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  partector_tbird:
+    title: "SANAT campaign with Polar 6: Partector 2 (T-Bird) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    version: "v1.0.0"
+    serial: 8149
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  kt19:
+    title: "SANAT campaign with Polar 6: KT19 of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    serial: 3071
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  radiation:
+    title: "SANAT campaign with Polar 6: irradiance of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-08-12"
+    instruments: "pyrgeometer & pyranometer top/bottom"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
 
 flights:
   11: 
@@ -31,23 +124,6 @@ flights:
     stop: 2026-01-21T16:25:00
     start_tbird: nat
     stop_tbird: nat
-    segments:
-      1: 2026-01-21T12:45:00
-      2: 2026-01-21T12:55:00
-      3: 2026-01-21T13:04:00
-      4: 2026-01-21T13:13:00
-      5: 2026-01-21T13:19:00
-      6: 2026-01-21T13:26:00
-      7: 2026-01-21T13:32:00
-      8: 2026-01-21T13:42:00
-      9: 2026-01-21T13:46:00
-      10: 2026-01-21T13:53:00
-      11: 2026-01-21T13:58:00
-      12: 2026-01-21T14:06:00
-      13: 2026-01-21T14:11:00
-      14: 2026-01-21T14:17:00
-      15: 2026-01-21T14:40:00
-      16: 2026-01-21T16:16:00
     calibration:
       out1:
         start: 2026-01-21T13:04:00
@@ -75,9 +151,6 @@ flights:
     tbird: True
     start: 2026-01-21T18:22:00
     stop: 2026-01-21T20:39:30
-    segments:
-      1: 2026-01-21T18:28:00
-      2: 2026-01-21T20:32:00
 
   21: 
     date: 2026-01-22
@@ -86,9 +159,6 @@ flights:
     tbird: True
     start: 2026-01-22T09:28:00
     stop: 2026-01-22T11:35:00
-    segments:
-      1: 2026-01-22T09:47:00
-      2: 2026-01-22T11:24:00
 
   22: 
     date: 2026-01-22
@@ -97,21 +167,6 @@ flights:
     tbird: True
     start: 2026-01-22T12:43:00
     stop: 2026-01-22T15:41:00
-    segments:
-      1: 2026-01-22T13:00:00
-      2: 2026-01-22T13:17:00
-      3: 2026-01-22T13:19:00
-      4: 2026-01-22T13:31:00
-      5: 2026-01-22T13:36:00
-      6: 2026-01-22T13:39:00
-      7: 2026-01-22T13:42:00
-      8: 2026-01-22T13:58:00
-      9: 2026-01-22T14:05:00
-      10: 2026-01-22T14:23:00
-      11: 2026-01-22T14:30:00
-      12: 2026-01-22T14:48:00
-      13: 2026-01-22T15:03:00
-      14: 2026-01-22T15:24:00
     calibration:
       out1:
         start: 2026-01-22T13:07:00
@@ -127,16 +182,6 @@ flights:
     tbird: True
     start: 2026-01-24T09:41:00
     stop: 2026-01-24T11:59:00
-    segments:
-      1: 2026-01-24T10:00:00
-      2: 2026-01-24T10:09:00
-      3: 2026-01-24T10:15:00
-      4: 2026-01-24T10:27:00
-      5: 2026-01-24T10:35:00
-      6: 2026-01-24T11:08:00
-      7: 2026-01-24T11:14:30
-      8: 2026-01-24T11:21:00
-      9: 2026-01-24T11:52:00
 
   32: 
     date: 2026-01-24
@@ -145,32 +190,6 @@ flights:
     tbird: True
     start: 2026-01-24T13:27:30
     stop: 2026-01-24T17:19:30
-    segments:
-      1: 2026-01-24T13:33:00
-      2: 2026-01-24T14:06:00
-      3: 2026-01-24T14:11:00
-      4: 2026-01-24T14:25:00
-      5: 2026-01-24T14:32:00
-      6: 2026-01-24T14:36:30
-      7: 2026-01-24T14:39:00
-      8: 2026-01-24T14:47:00
-      9: 2026-01-24T14:54:00
-      10: 2026-01-24T15:01:00
-      11: 2026-01-24T15:09:00
-      12: 2026-01-24T15:19:00
-      13: 2026-01-24T15:26:00
-      14: 2026-01-24T15:36:00
-      15: 2026-01-24T15:51:00
-      16: 2026-01-24T15:58:00
-      17: 2026-01-24T16:12:00
-      18: 2026-01-24T16:16:00
-      19: 2026-01-24T16:34:00
-      20: 2026-01-24T16:37:00
-      21: 2026-01-24T16:44:00
-      22: 2026-01-24T16:49:00
-      23: 2026-01-24T16:59:00
-      24: 2026-01-24T17:05:00
-      25: 2026-01-24T17:11:00
     calibration:
       out1:
         start: 2026-01-24T15:09:00
@@ -186,20 +205,6 @@ flights:
     tbird: True
     start: 2026-01-24T18:53:00
     stop: 2026-01-24T20:43:00
-    segments:
-      1: 2026-01-24T19:01:00
-      2: 2026-01-24T19:26:00
-      3: 2026-01-24T19:35:30
-      4: 2026-01-24T19:37:00
-      5: 2026-01-24T19:45:30
-      6: 2026-01-24T19:47:00
-      7: 2026-01-24T19:55:00
-      8: 2026-01-24T19:56:30
-      9: 2026-01-24T20:00:00
-      10: 2026-01-24T20:02:00
-      11: 2026-01-24T20:20:30
-      12: 2026-01-24T20:25:30
-      13: 2026-01-24T20:36:00
 
   4: 
     date: 2026-01-25
@@ -208,22 +213,6 @@ flights:
     tbird: True
     start: 2026-01-25T08:47:30
     stop: 2026-01-25T13:01:00
-    segments:
-      1: 2026-01-25T09:03:00
-      2: 2026-01-25T10:27:00
-      3: 2026-01-25T10:40:00
-      4: 2026-01-25T10:47:00
-      5: 2026-01-25T10:57:00
-      6: 2026-01-25T11:01:00
-      7: 2026-01-25T11:13:00
-      8: 2026-01-25T11:18:00
-      9: 2026-01-25T11:27:00
-      10: 2026-01-25T11:29:00
-      11: 2026-01-25T11:35:30
-      12: 2026-01-25T11:39:00
-      13: 2026-01-25T11:45:30
-      14: 2026-01-25T12:04:00
-      15: 2026-01-25T12:44:00
     calibration:
       out1:
         start: 2026-01-25T11:29:00
@@ -239,23 +228,6 @@ flights:
     tbird: True
     start: 2026-01-25T15:00:00
     stop: 2026-01-25T19:38:00
-    segments:
-      1: 2026-01-25T15:16:00
-      2: 2026-01-25T16:48:00
-      3: 2026-01-25T17:03:00
-      4: 2026-01-25T17:22:00
-      5: 2026-01-25T17:24:00
-      6: 2026-01-25T17:36:00
-      7: 2026-01-25T17:41:00
-      8: 2026-01-25T17:53:00
-      9: 2026-01-25T17:57:00
-      10: 2026-01-25T18:08:00
-      11: 2026-01-25T18:10:00
-      12: 2026-01-25T18:16:00
-      13: 2026-01-25T18:21:00
-      14: 2026-01-25T18:29:00
-      15: 2026-01-25T18:40:00
-      16: 2026-01-25T19:25:00
     calibration:
       out1:
         start: 2026-01-25T18:10:00
@@ -271,30 +243,6 @@ flights:
     tbird: True
     start: 2026-01-26T14:25:00
     stop: 2026-01-26T18:27:00
-    segments:
-      1: 2026-01-26T14:32:00
-      2: 2026-01-26T14:34:00
-      3: 2026-01-26T14:42:00
-      4: 2026-01-26T14:49:00
-      5: 2026-01-26T14:57:00
-      6: 2026-01-26T15:08:00
-      7: 2026-01-26T15:19:00
-      8: 2026-01-26T15:27:00
-      9: 2026-01-26T15:40:00
-      10: 2026-01-26T15:53:00
-      11: 2026-01-26T15:57:00
-      12: 2026-01-26T16:01:00
-      13: 2026-01-26T16:12:30
-      14: 2026-01-26T16:17:00
-      15: 2026-01-26T16:30:00
-      16: 2026-01-26T16:39:00
-      17: 2026-01-26T16:50:00
-      18: 2026-01-26T17:05:00
-      19: 2026-01-26T17:20:00
-      20: 2026-01-26T17:25:00
-      21: 2026-01-26T17:39:00
-      22: 2026-01-26T17:47:00
-      23: 2026-01-26T18:03:00
 
   7: 
     date: 2026-01-27
@@ -303,20 +251,6 @@ flights:
     tbird: False
     start: 2026-01-27T09:06:30
     stop: 2026-01-27T12:11:30
-    segments:
-      1: 2026-01-27T09:27:00
-      2: 2026-01-27T10:05:00
-      3: 2026-01-27T10:22:00
-      4: 2026-01-27T10:29:00
-      5: 2026-01-27T10:48:00
-      6: 2026-01-27T11:02:00
-      7: 2026-01-27T11:12:00
-      8: 2026-01-27T11:29:00
-      9: 2026-01-27T11:35:00
-      10: 2026-01-27T11:39:00
-      11: 2026-01-27T11:46:00
-      12: 2026-01-27T11:48:00
-      13: 2026-01-27T12:02:00
     calibration:
       out1:
         start: 2026-01-27T11:29:00
@@ -332,31 +266,6 @@ flights:
     tbird: False
     start: 2026-01-27T14:03:30
     stop: 2026-01-27T17:00:00
-    segments:
-      1: 2026-01-27T14:13:00
-      2: 2026-01-27T14:16:30
-      3: 2026-01-27T14:20:30
-      4: 2026-01-27T14:23:30
-      5: 2026-01-27T14:26:45
-      6: 2026-01-27T14:29:30
-      7: 2026-01-27T14:33:00
-      8: 2026-01-27T14:36:20
-      9: 2026-01-27T14:57:00
-      10: 2026-01-27T15:06:00
-      11: 2026-01-27T15:11:00
-      12: 2026-01-27T15:22:00
-      13: 2026-01-27T15:33:00
-      14: 2026-01-27T15:40:30
-      15: 2026-01-27T15:45:00
-      16: 2026-01-27T15:54:00
-      17: 2026-01-27T15:59:00
-      18: 2026-01-27T16:07:00
-      19: 2026-01-27T16:11:00
-      20: 2026-01-27T16:20:00
-      21: 2026-01-27T16:25:00
-      22: 2026-01-27T16:33:00
-      23: 2026-01-27T16:37:00
-      24: 2026-01-27T16:47:00
     calibration:
       out1:
         start: 2026-01-27T14:57:00
@@ -390,29 +299,6 @@ flights:
     tbird: False
     start: 2026-01-29T09:02:00
     stop: 2026-01-29T13:27:00
-    segments:
-      1: 2026-01-29T09:10:00
-      2: 2026-01-29T09:32:00
-      3: 2026-01-29T09:36:30
-      4: 2026-01-29T09:53:00
-      5: 2026-01-29T10:09:00
-      6: 2026-01-29T10:29:00
-      7: 2026-01-29T10:33:00
-      8: 2026-01-29T10:54:00
-      9: 2026-01-29T10:59:30
-      10: 2026-01-29T11:17:00
-      11: 2026-01-29T11:21:00
-      12: 2026-01-29T11:47:00
-      13: 2026-01-29T11:58:00
-      14: 2026-01-29T12:12:00
-      15: 2026-01-29T12:17:00
-      16: 2026-01-29T12:21:00
-      17: 2026-01-29T12:26:00
-      18: 2026-01-29T12:28:00
-      19: 2026-01-29T12:51:00
-      20: 2026-01-29T12:57:00
-      21: 2026-01-29T13:03:00
-      22: 2026-01-29T13:15:00
     calibration:
       out1:
         start: 2026-01-29T12:12:00
@@ -428,22 +314,6 @@ flights:
     tbird: False
     start: 2026-01-29T15:04:00
     stop: 2026-01-29T18:19:00
-    segments:
-      1: 2026-01-29T15:06:00
-      2: 2026-01-29T15:53:00
-      3: 2026-01-29T16:11:00
-      4: 2026-01-29T16:19:00
-      5: 2026-01-29T16:37:30
-      6: 2026-01-29T16:42:30
-      7: 2026-01-29T16:50:00
-      8: 2026-01-29T16:54:00
-      9: 2026-01-29T17:00:00
-      10: 2026-01-29T17:05:00
-      11: 2026-01-29T17:10:00
-      12: 2026-01-29T17:19:00
-      13: 2026-01-29T17:22:00
-      14: 2026-01-29T17:45:00
-      15: 2026-01-29T18:10:00
     calibration:
       out1:
         start: 2026-01-29T16:54:00

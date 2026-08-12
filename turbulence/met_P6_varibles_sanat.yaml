@@ -452,7 +452,7 @@ Pygo:
   old: Pyrgeo_top.RAD_raw
   long_name: Longwave Irradiance top value raw
   sensor: Kipp & Zonen Radiation Sensor CGR4
-  serial: 111084
+  serial: 110384
   group: rad
   units: W/m^2
   units_old: W/m^2
@@ -462,7 +462,7 @@ T_Pygo:
   old: Pyrgeo_top.T_raw
   long_name: Longwave Irradiance top temperature raw
   sensor: Kipp & Zonen Radiation Sensor CGR4
-  serial: 111084
+  serial: 110384
   group: rad
   units: K
   units_old: K
