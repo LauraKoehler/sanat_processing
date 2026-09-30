@@ -9,7 +9,7 @@ paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
   variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/met_P6_varibles_sanat.yaml"
   calibration: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/calibration_sanat.yaml"
-  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/fiveholeprobe_parameters_sanat_2check.yaml"
+  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/fiveholeprobe_parameters_sanat.yaml"
   processing_log_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/"
   processed_variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_final_variable_attributes.yaml"
   segments: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_flight_segments.yaml"
@@ -22,6 +22,9 @@ paths:
     partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/partector_tbird"
     kt19: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/kt19"
     radiation: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/radiation"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/uhsas"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor"
+    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor_tbird"
 
 metadata:
   author: "Laura Köhler"
@@ -106,11 +109,49 @@ instrument_metadata:
     conventions: "CF-1.7"
     processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
     comment: "part of <doi>"
+  uhsas:
+    title: "SANAT campaign with Polar 6: UHSAS of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    version: "v1.0.0"
+    serial: "tba"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  licor:
+    title: "SANAT campaign with Polar 6: LI-COR7200 (Polar 6) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    version: "v1.0.0"
+    serial: "72H-0584"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
+  licor_tbird:
+    title: "SANAT campaign with Polar 6: LI-COR (T-Bird) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    version: "v1.0.0"
+    serial: "72H-1044"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
 
 flights:
   11: 
     date: 2026-01-21
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01a/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01a/"
+    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_TBird_RF01a/"
     prefix: "20260121_RF01a_P6__"
     tbird: True
     start: 2026-01-21T12:41:00
@@ -136,90 +177,129 @@ flights:
       ret3:
         start: 2026-01-21T14:12:18.54
         stop: 2026-01-21T14:17:00
+    time_offsets:
+      mcpc: 17000
+      uhsas: -1000
 
   12: 
     date: 2026-01-21
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01b/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01b/"
     prefix: "2026_RF01b_P6_"
     tbird: True
     start: 2026-01-21T18:22:00
     stop: 2026-01-21T20:39:30
-    start_tbird: 2026-01-21T18:39:00
-    stop_tbird: 2026-01-21T19:10:00
+    start_tbird: nat
+    stop_tbird: nat
+    time_offsets:
+      mcpc: 0
+      partector: 26000
+      uhsas: -1000
 
   21: 
     date: 2026-01-22
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02a/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02a/"
     prefix: "20260122_RF02_P6_"
     tbird: True
     start: 2026-01-22T09:28:00
     stop: 2026-01-22T11:35:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: 0
+      partector: 26000
+      uhsas: -1200
 
   22: 
     date: 2026-01-22
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02b/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02b/"
     prefix: "20260122_RF02b_P6_"
     tbird: True
     start: 2026-01-22T12:43:00
     stop: 2026-01-22T15:41:00
     start_tbird: nat
     stop_tbird: nat
-    calibration:
-      out1:
-        start: 2026-01-22T13:08:02.64
-        stop: 2026-01-22T13:12:27.18
-      ret1:
-        start: 2026-01-22T13:24:09.24
-        stop: 2026-01-22T13:29:00
+    time_offsets:
+      mcpc: -7000
+      partector: 0
+      uhsas: -2200
 
   31: 
     date: 2026-01-24
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03a/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF31/"
     prefix: "20260124_P6_RF03a_"
     tbird: True
     start: 2026-01-24T09:41:00
     stop: 2026-01-24T11:59:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: 0
+      partector: 1000
 
   32: 
     date: 2026-01-24
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03b/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF32/"
     prefix: "20260124_P6_RF03b_"
     tbird: True
     start: 2026-01-24T13:27:30
     stop: 2026-01-24T17:19:30
     start_tbird: nat
     stop_tbird: nat
-    calibration:
-      out1:
-        start: 2026-01-24T15:09:30.76
-        stop: 2026-01-24T15:18:49.98
-      ret1:
-        start: 2026-01-24T15:26:13.48
-        stop: 2026-01-24T15:36:00
+    time_offsets:
+      mcpc: -2000
+      partector: 0
 
   33: 
     date: 2026-01-24
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03c/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF33/"
     prefix: "20260124_P6_RF03c_"
     tbird: True
     start: 2026-01-24T18:53:00
     stop: 2026-01-24T20:43:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: -3000
+      partector: 0
 
   4: 
     date: 2026-01-25
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/20260125_RF04/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/PartectorP6/2026_01_25/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/LICOR_P6/"
+    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/LICOR_TBird/"
     prefix: "20260125_P6_04_"
     tbird: True
     start: 2026-01-25T08:47:30
     stop: 2026-01-25T13:01:00
     start_tbird: 2026-01-25T09:40:00
-    stop_tbird: 2026-01-25T12:00:00
+    stop_tbird: 2026-01-25T11:50:00
     calibration:
       out1:
         start: 2026-01-25T11:31:07.32
@@ -227,16 +307,24 @@ flights:
       ret1:
         start: 2026-01-25T11:40:39.26
         stop: 2026-01-25T11:45:30
+    time_offsets:
+      mcpc: 0
+      partector: 0
 
   5: 
     date: 2026-01-25
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/20260125_RF05"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/PartectorP6/2026_01_25/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/LICOR_P6/"
+    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/LICOR_TBird/"
     prefix: "20260125_P6_05_"
     tbird: True
     start: 2026-01-25T15:00:00
     stop: 2026-01-25T19:38:00
     start_tbird: 2026-01-25T15:43:00
-    stop_tbird: 2026-01-25T18:29:00
+    stop_tbird: 2026-01-25T18:20:30
     calibration:
       out1:
         start: 2026-01-25T18:10:00
@@ -244,20 +332,37 @@ flights:
       ret1:
         start: 2026-01-25T18:22:43.97
         stop: 2026-01-25T18:28:33.49
+    time_offsets:
+      mcpc: 0
+      partector: 0
+      uhsas: -400
 
   6: 
     date: 2026-01-26
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/20260126_RF06/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/PartectorP6/2026_01_26/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/LICOR_P6/"
+    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/LICOR_TBird/"
     prefix: "20260126_P6_RF06_"
     tbird: True
     start: 2026-01-26T14:25:00
     stop: 2026-01-26T18:27:00
-    start_tbird: 2026-01-26T16:54:00
+    start_tbird: 2026-01-26T16:57:00
     stop_tbird: 2026-01-26T18:03:00
+    time_offsets:
+      mcpc: 0
+      partector: 0
+      uhsas: -700
 
   7: 
     date: 2026-01-27
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/20260127_RF07/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/PartectorP6/2026_01_27/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/LICOR_P6/"
     prefix: "20260127_P6_07_"
     tbird: False
     start: 2026-01-27T09:06:30
@@ -269,10 +374,16 @@ flights:
       ret1:
         start: 2026-01-27T11:40:35.84
         stop: 2026-01-27T11:45:58.07
+    time_offsets:
+      mcpc: 0
 
   8: 
     date: 2026-01-27
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/20260127_RF08/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/PartectorP6/2026_01_27/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/aMCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/LICOR_P6/"
     prefix: "20260127_P6_RF08_"
     tbird: False
     start: 2026-01-27T14:03:30
@@ -302,10 +413,16 @@ flights:
       ret4:
         start: 2026-01-27T16:38:53.34
         stop: 2026-01-27T16:46:07.74
+    time_offsets:
+      mcpc: -6000
+      partector: 6000
 
   9: 
     date: 2026-01-29
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/20260129_RF09/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/PartectorP6/2026_01_29/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/UHSAS/"
     prefix: "20260129_P6_RF09_"
     tbird: False
     start: 2026-01-29T09:02:00
@@ -317,10 +434,18 @@ flights:
       ret1:
         start: 2026-01-29T12:22:12.24
         stop: 2026-01-29T12:26:00
+    time_offsets:
+      mcpc: 0
+      partector: 9000
+      uhsas: 0
 
   10: 
     date: 2026-01-29
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/20260129_RF10/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/PartectorP6/2026_01_29/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/MCPC/"
+    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/UHSAS/"
+    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/LICOR_P6/"
     prefix: "20260129_P6_RF10_"
     tbird: False
     start: 2026-01-29T15:04:00
@@ -332,3 +457,7 @@ flights:
       ret1:
         start: 2026-01-29T17:06:25.79
         stop: 2026-01-29T17:10:00
+    time_offsets:
+      mcpc: -4000
+      partector: 4000
+      uhsas: 86398000

@@ -449,3 +449,852 @@ radiation:
       units_old: K
       units: K
       serial: 110293
+
+licor:
+    h2o_mole_fraction:
+      old: LICOR72.H2OMF
+      long_name: H2O mole fraction
+      standard_name: mole_fraction_of_water_vapor_in_air
+      platform: licor
+      units_old: umol/mol
+      units: ppm
+
+    h2o_mass_conc:
+      old: LICOR72.H2OG
+      long_name: H2O mass concentration
+      standard_name: mass_concentration_of_water_vapor_in_air
+      platform: licor
+      units_old: g/m^3
+      units: kg/m^3
+
+    co2_mole_fraction:
+      old: LICOR72.CO2MF
+      long_name: CO2 mole fraction
+      standard_name: mole_fraction_of_carbon_dioxide_in_air
+      platform: licor
+      units_old: umol/mol
+      units: ppm
+
+    co2_mole_conc:
+      old: LICOR72.CO2D
+      long_name: CO2 mole concentration
+      standard_name: mole_concentration_of_carbon_dioxide_in_air
+      platform: licor
+      units_old: mmol/m^3
+      units: mol/m^3
+
+uhsas:
+    p_amb:
+      old: Pres.
+      long_name: ambient pressure
+      standard_name: ""
+      platform: uhsas
+      units_old: kPa
+      units: Pa
+
+    flow_rate:
+      old: Sample
+      long_name: sample flow rate at standard temperature and pressure
+      platform: uhsas
+      units_old: cm^3/min
+      units: m^3/s
+
+    total_counts:
+      old: Total_counts
+      long_name: total number of aerosol particles
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_60_62nm:
+      old: "60.00"
+      long_name: number of particles in optical diameter bin 60.00 to 61.73 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_62_64nm:
+      old: "61.73"
+      long_name: number of particles in optical diameter bin 61.73 to 63.51 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_64_65nm:
+      old: "63.51"
+      long_name: number of particles in optical diameter bin 63.51 to 65.34 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_65_67nm:
+      old: "65.34"
+      long_name: number of particles in optical diameter bin 65.34 to 67.22 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_67_69nm:
+      old: "67.22"
+      long_name: number of particles in optical diameter bin 67.22 to 69.16 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_69_71nm:
+      old: "69.16"
+      long_name: number of particles in optical diameter bin 69.16 to 71.15 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_71_73nm:
+      old: "71.15"
+      long_name: number of particles in optical diameter bin 71.15 to 73.21 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_73_75nm:
+      old: "73.21"
+      long_name: number of particles in optical diameter bin 73.21 to 75.32 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_75_77nm:
+      old: "75.32"
+      long_name: number of particles in optical diameter bin 75.32 to 77.49 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_77_80nm:
+      old: "77.49"
+      long_name: number of particles in optical diameter bin 77.49 to 79.72 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_80_82nm:
+      old: "79.72"
+      long_name: number of particles in optical diameter bin 79.72 to 82.02 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_82_84nm:
+      old: "82.02"
+      long_name: number of particles in optical diameter bin 82.02 to 84.38 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_84_87nm:
+      old: "84.38"
+      long_name: number of particles in optical diameter bin 84.38 to 86.82 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_87_89nm:
+      old: "86.82"
+      long_name: number of particles in optical diameter bin 86.82 to 89.32 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_89_92nm:
+      old: "89.32"
+      long_name: number of particles in optical diameter bin 89.32 to 91.89 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_92_95nm:
+      old: "91.89"
+      long_name: number of particles in optical diameter bin 91.89 to 94.54 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_95_97nm:
+      old: "94.54"
+      long_name: number of particles in optical diameter bin 94.54 to 97.27 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_97_100nm:
+      old: "97.27"
+      long_name: number of particles in optical diameter bin 97.27 to 100.07 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_100_103nm:
+      old: "100.07"
+      long_name: number of particles in optical diameter bin 100.07 to 102.96 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_103_106nm:
+      old: "102.96"
+      long_name: number of particles in optical diameter bin 102.96 to 105.92 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_106_109nm:
+      old: "105.92"
+      long_name: number of particles in optical diameter bin 105.92 to 108.98 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_109_112nm:
+      old: "108.98"
+      long_name: number of particles in optical diameter bin 108.98 to 112.12 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_112_115nm:
+      old: "112.12"
+      long_name: number of particles in optical diameter bin 112.12 to 115.35 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_115_119nm:
+      old: "115.35"
+      long_name: number of particles in optical diameter bin 115.35 to 118.67 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_119_122nm:
+      old: "118.67"
+      long_name: number of particles in optical diameter bin 118.67 to 122.10 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_122_126nm:
+      old: "122.10"
+      long_name: number of particles in optical diameter bin 122.10 to 125.61 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_126_129nm:
+      old: "125.61"
+      long_name: number of particles in optical diameter bin 125.61 to 129.24 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_129_133nm:
+      old: "129.24"
+      long_name: number of particles in optical diameter bin 129.24 to 132.96 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_133_137nm:
+      old: "132.96"
+      long_name: number of particles in optical diameter bin 132.96 to 136.79 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_137_141nm:
+      old: "136.79"
+      long_name: number of particles in optical diameter bin 136.79 to 140.74 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_141_145nm:
+      old: "140.74"
+      long_name: number of particles in optical diameter bin 140.74 to 144.79 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_145_149nm:
+      old: "144.79"
+      long_name: number of particles in optical diameter bin 144.79 to 148.97 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_149_153nm:
+      old: "148.97"
+      long_name: number of particles in optical diameter bin 148.97 to 153.26 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_153_158nm:
+      old: "153.26"
+      long_name: number of particles in optical diameter bin 153.26 to 157.68 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_158_162nm:
+      old: "157.68"
+      long_name: number of particles in optical diameter bin 157.68 to 162.23 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_162_167nm:
+      old: "162.23"
+      long_name: number of particles in optical diameter bin 162.23 to 166.90 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_167_172nm:
+      old: "166.90"
+      long_name: number of particles in optical diameter bin 166.90 to 171.71 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_172_177nm:
+      old: "171.71"
+      long_name: number of particles in optical diameter bin 171.71 to 176.66 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_177_182nm:
+      old: "176.66"
+      long_name: number of particles in optical diameter bin 176.66 to 181.75 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_182_187nm:
+      old: "181.75"
+      long_name: number of particles in optical diameter bin 181.75 to 186.99 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_187_192nm:
+      old: "186.99"
+      long_name: number of particles in optical diameter bin 186.99 to 192.38 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_192_198nm:
+      old: "192.38"
+      long_name: number of particles in optical diameter bin 192.38 to 197.93 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_198_204nm:
+      old: "197.93"
+      long_name: number of particles in optical diameter bin 197.93 to 203.64 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_204_210nm:
+      old: "203.64"
+      long_name: number of particles in optical diameter bin 203.64 to 209.51 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_210_216nm:
+      old: "209.51"
+      long_name: number of particles in optical diameter bin 209.51 to 215.54 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_216_222nm:
+      old: "215.54"
+      long_name: number of particles in optical diameter bin 215.54 to 221.76 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_222_228nm:
+      old: "221.76"
+      long_name: number of particles in optical diameter bin 221.76 to 228.15 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_228_235nm:
+      old: "228.15"
+      long_name: number of particles in optical diameter bin 228.15 to 234.73 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_235_241nm:
+      old: "234.73"
+      long_name: number of particles in optical diameter bin 234.73 to 241.49 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_241_248nm:
+      old: "241.49"
+      long_name: number of particles in optical diameter bin 241.49 to 248.45 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_248_256nm:
+      old: "248.45"
+      long_name: number of particles in optical diameter bin 248.45 to 255.62 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_256_263nm:
+      old: "255.62"
+      long_name: number of particles in optical diameter bin 255.62 to 262.98 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_263_271nm:
+      old: "262.98"
+      long_name: number of particles in optical diameter bin 262.98 to 270.57 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_271_278nm:
+      old: "270.57"
+      long_name: number of particles in optical diameter bin 270.57 to 278.36 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_278_286nm:
+      old: "278.36"
+      long_name: number of particles in optical diameter bin 278.36 to 286.39 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_286_295nm:
+      old: "286.39"
+      long_name: number of particles in optical diameter bin 286.39 to 294.64 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_295_303nm:
+      old: "294.64"
+      long_name: number of particles in optical diameter bin 294.64 to 303.14 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_303_312nm:
+      old: "303.14"
+      long_name: number of particles in optical diameter bin 303.14 to 311.88 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_312_321nm:
+      old: "311.88"
+      long_name: number of particles in optical diameter bin 311.88 to 320.87 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_321_330nm:
+      old: "320.87"
+      long_name: number of particles in optical diameter bin 320.87 to 330.12 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_330_340nm:
+      old: "330.12"
+      long_name: number of particles in optical diameter bin 330.12 to 339.63 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_340_349nm:
+      old: "339.63"
+      long_name: number of particles in optical diameter bin 339.63 to 349.42 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_349_359nm:
+      old: "349.42"
+      long_name: number of particles in optical diameter bin 349.42 to 359.49 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_359_370nm:
+      old: "359.49"
+      long_name: number of particles in optical diameter bin 359.49 to 369.86 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_370_381nm:
+      old: "369.86"
+      long_name: number of particles in optical diameter bin 369.86 to 380.52 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_381_391nm:
+      old: "380.52"
+      long_name: number of particles in optical diameter bin 380.52 to 391.49 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_391_403nm:
+      old: "391.49"
+      long_name: number of particles in optical diameter bin 391.49 to 402.77 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_403_414nm:
+      old: "402.77"
+      long_name: number of particles in optical diameter bin 402.77 to 414.38 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_414_426nm:
+      old: "414.38"
+      long_name: number of particles in optical diameter bin 414.38 to 426.33 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_426_439nm:
+      old: "426.33"
+      long_name: number of particles in optical diameter bin 426.33 to 438.62 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_439_451nm:
+      old: "438.62"
+      long_name: number of particles in optical diameter bin 438.62 to 451.26 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_451_464nm:
+      old: "451.26"
+      long_name: number of particles in optical diameter bin 451.26 to 464.27 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_464_478nm:
+      old: "464.27"
+      long_name: number of particles in optical diameter bin 464.27 to 477.65 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_478_491nm:
+      old: "477.65"
+      long_name: number of particles in optical diameter bin 477.65 to 491.42 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_491_506nm:
+      old: "491.42"
+      long_name: number of particles in optical diameter bin 491.42 to 505.59 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_506_520nm:
+      old: "505.59"
+      long_name: number of particles in optical diameter bin 505.59 to 520.16 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_520_535nm:
+      old: "520.16"
+      long_name: number of particles in optical diameter bin 520.16 to 535.15 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_535_551nm:
+      old: "535.15"
+      long_name: number of particles in optical diameter bin 535.15 to 550.58 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_551_566nm:
+      old: "550.58"
+      long_name: number of particles in optical diameter bin 550.58 to 566.45 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_566_583nm:
+      old: "566.45"
+      long_name: number of particles in optical diameter bin 566.45 to 582.78 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_583_600nm:
+      old: "582.78"
+      long_name: number of particles in optical diameter bin 582.78 to 599.58 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_600_617nm:
+      old: "599.58"
+      long_name: number of particles in optical diameter bin 599.58 to 616.86 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_617_635nm:
+      old: "616.86"
+      long_name: number of particles in optical diameter bin 616.86 to 634.64 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_635_653nm:
+      old: "634.64"
+      long_name: number of particles in optical diameter bin 634.64 to 652.94 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_653_672nm:
+      old: "652.94"
+      long_name: number of particles in optical diameter bin 652.94 to 671.76 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_672_691nm:
+      old: "671.76"
+      long_name: number of particles in optical diameter bin 671.76 to 691.12 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_691_711nm:
+      old: "691.12"
+      long_name: number of particles in optical diameter bin 691.12 to 711.05 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_711_732nm:
+      old: "711.05"
+      long_name: number of particles in optical diameter bin 711.05 to 731.54 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_732_753nm:
+      old: "731.54"
+      long_name: number of particles in optical diameter bin 731.54 to 752.63 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_753_774nm:
+      old: "752.63"
+      long_name: number of particles in optical diameter bin 752.63 to 774.32 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_774_797nm:
+      old: "774.32"
+      long_name: number of particles in optical diameter bin 774.32 to 796.64 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_797_820nm:
+      old: "796.64"
+      long_name: number of particles in optical diameter bin 796.64 to 819.61 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_820_843nm:
+      old: "819.61"
+      long_name: number of particles in optical diameter bin 819.61 to 843.23 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_843_868nm:
+      old: "843.23"
+      long_name: number of particles in optical diameter bin 843.23 to 867.54 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_868_893nm:
+      old: "867.54"
+      long_name: number of particles in optical diameter bin 867.54 to 892.55 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_893_918nm:
+      old: "892.55"
+      long_name: number of particles in optical diameter bin 892.55 to 918.28 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_918_945nm:
+      old: "918.28"
+      long_name: number of particles in optical diameter bin 918.28 to 944.75 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_945_972nm:
+      old: "944.75"
+      long_name: number of particles in optical diameter bin 944.75 to 971.98 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1
+
+    counts_972_1000nm:
+      old: "971.98"
+      long_name: number of particles in optical diameter bin 971.98 to 1000.00 nm
+      standard_name: ""
+      platform: uhsas
+      units_old: 1
+      units: 1

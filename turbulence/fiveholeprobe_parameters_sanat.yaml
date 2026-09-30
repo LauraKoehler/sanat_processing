@@ -1,0 +1,62 @@
+noseboom:
+  alpha:
+    a0: 0.9238444145280069
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 0
+    a1_qratio: 10.147213411776795
+  beta:
+    a0: -4.73
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 0
+    a1_qratio: 10.147213411776795
+  ps:
+    a0: 0
+    a1_ps: 1
+    a1_qb: 0
+    a1_qc: -0.10306983242155998
+    a1_qratio: 0
+  qb:
+    a0: 0
+    a1_ps: 0
+    a1_qb: 1
+    a1_qc: 0
+    a1_qratio: 0
+  qc:
+    a0: 0
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 1.10306983242156
+    a1_qratio: 0
+tbird:
+  alpha:
+    a0: -0.8149517202899468
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 0
+    a1_qratio: 10.413283252783119
+  beta:
+    a0: 0.8
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 0
+    a1_qratio: 10.253120655959325
+  ps:
+    a0: 0
+    a1_ps: 1
+    a1_qb: 0
+    a1_qc: -0.16780015029904427
+    a1_qratio: 0
+  qb:
+    a0: 0
+    a1_ps: 0
+    a1_qb: 1
+    a1_qc: 0
+    a1_qratio: 0
+  qc:
+    a0: 0
+    a1_ps: 0
+    a1_qb: 0
+    a1_qc: 1.1678001502990443
+    a1_qratio: 0

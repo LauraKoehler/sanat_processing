@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orderfile xmlns="http://www.werum.de/schema/orderfile" archiveSetPath="/Aircraft/P6-263_ANT_SANAT_2025_2026/2601210101-dms1" orderFileName="sanat_tbird_licor_rf01.xml" saveOrderFileName="" saveOrder="false" systemName="Aircraft">
+    <user emailAddress="laura.koehler@awi.de" receiveEmail="true" username="laura.koehler@awi.de"/>
+    <destinationFile fileNamePrefix="sanat_tbird_licor_rf01" fileFormat="ASCII" maxFileSize="0" path="/data2_1/dms/DMS_Extraction/results">
+        <format columnSeparator=" " dateTimeFormat="YYYY_SLASH_MM_SLASH_DD_STAR_HH_COLON_mm_COLON_ss" decimalSeparator="Dot" fitToFormat="false" includeHeaderRow="true" nonValidValueAlphanumeric=" " nonValidValueNumeric="9" nonValidValuePosition=" " recordSeparator="\n" secondFractionDigits="6" showInvalidValues="true" skipInvalidLines="true"/>
+    </destinationFile>
+    <extraction dataSource="FullDataSet" endDate="2026-01-21T16:39:38.000Z" intervalUnit="all" intervalValue="0" startDate="2026-01-21T12:08:49.000Z">
+        <channels numberOfChannels="5">
+            <channel channelShortName="APres" columnOrderPosition="1" deviceShortName="TB_LICOR72" fieldWidth="4" meanCalculation="None" outputFormat="Real" physicalUnit="kPa" precision="4" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="CO2D" columnOrderPosition="2" deviceShortName="TB_LICOR72" fieldWidth="2" meanCalculation="None" outputFormat="Real" physicalUnit="mmol m-3" precision="6" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="CO2MF" columnOrderPosition="3" deviceShortName="TB_LICOR72" fieldWidth="4" meanCalculation="None" outputFormat="Real" physicalUnit="µmol/mol" precision="3" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="H2OG" columnOrderPosition="4" deviceShortName="TB_LICOR72" fieldWidth="2" meanCalculation="None" outputFormat="Real" physicalUnit="g/m-3" precision="6" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="H2OMF" columnOrderPosition="5" deviceShortName="TB_LICOR72" fieldWidth="3" meanCalculation="None" outputFormat="Real" physicalUnit="µmol/mol" precision="4" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+        </channels>
+    </extraction>
+</orderfile>
