@@ -483,6 +483,151 @@ licor:
       units_old: mmol/m^3
       units: mol/m^3
 
+dropsondes:
+
+    p_air:
+      old: RSS421 Pressure (mb)
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: dropsonde
+      units_old: mbar
+      units: Pa
+
+    t_air:
+      old: RSS421 Air Temp (C)
+      long_name: air temperature
+      standard_name: air_temperature
+      platform: dropsonde
+      units_old: degC
+      units: K
+
+    rh:
+      old: RSS421 RH (%)
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: dropsonde
+      units_old: percent
+      units: 1
+
+    mr:
+      old: Mixing Ratio (g/Kg)
+      long_name: water vapor mixing ratio
+      standard_name: humidity_mixing_ratio
+      platform: dropsonde
+      units_old: g/kg
+      units: 1
+
+    dp:
+      old: Dewpoint Temp (C)
+      long_name: dewpoint temperature
+      standard_name: dew_point_temperature
+      platform: dropsonde
+      units_old: degC
+      units: K
+
+    tv:
+      old: Virtual Temp (C)
+      long_name: dewpoint temperature
+      standard_name: virtual_temperature
+      platform: dropsonde
+      units_old: degC
+      units: K
+
+    theta:
+      old: Potential Temp (K)
+      long_name: air potential temperature
+      standard_name: air_potential_temperature
+      platform: dropsonde
+      units_old: K
+      units: K
+
+    theta_e:
+      old: Equiv Potential Temp (K)
+      long_name: air equivalent potential temperature
+      standard_name: air_equivalent_potential_temperature
+      platform: dropsonde
+      units_old: K
+      units: K
+
+    theta_e:
+      old: Equiv Potential Temp (K)
+      long_name: air equivalent potential temperature
+      standard_name: air_equivalent_potential_temperature
+      platform: dropsonde
+      units_old: K
+      units: K
+
+    alt_gp:
+      old: Geopotential Altitude (m)
+      long_name: geopotential altitude
+      standard_name: altitude
+      platform: dropsonde
+      units_old: m
+      units: m
+
+    alt:
+      old: GPS MSL Altitude (m)
+      long_name: GPS altitude
+      standard_name: altitude
+      platform: dropsonde
+      units_old: m
+      units: m
+
+    lon:
+      old: GPS Longitude (deg)
+      long_name: longitude
+      standard_name: longitude
+      platform: dropsonde
+      units_old: degree
+      units: degree
+
+    lat:
+      old: GPS Latitude (deg)
+      long_name: latitude
+      standard_name: latitude
+      platform: dropsonde
+      units_old: degree
+      units: degree
+
+    wdir:
+      old: GPS Wind Direction (deg)
+      long_name: wind direction
+      standard_name: wind_from_direction
+      platform: dropsonde
+      units_old: degree
+      units: degree
+
+    wspd:
+      old: GPS Wind Speed (m/s)
+      long_name: wind speed
+      standard_name: wind_speed
+      platform: dropsonde
+      units_old: m/s
+      units: m/s
+
+    u_air:
+      old: GPS U Wind (m/s)
+      long_name: u-component of the wind
+      standard_name: eastward_wind
+      platform: dropsonde
+      units_old: m/s
+      units: m/s
+
+    v_air:
+      old: GPS V Wind (m/s)
+      long_name: v-component of the wind
+      standard_name: northward_wind
+      platform: dropsonde
+      units_old: m/s
+      units: m/s
+
+    w_sonde:
+      old: GPS Vert Velocity (m/s)
+      long_name: vertical velocity of the dropsonde
+      platform: dropsonde
+      units_old: m/s
+      units: m/s
+
 uhsas:
     p_amb:
       old: Pres.

@@ -25,6 +25,7 @@ paths:
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/uhsas"
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor"
     licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor_tbird"
+    dropsondes: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/dropsondes"
 
 metadata:
   author: "Laura Köhler"
@@ -142,13 +143,23 @@ instrument_metadata:
     conventions: "CF-1.7"
     processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
     comment: "part of <doi>"
+  dropsondes:
+    title: "SANAT campaign with Polar 6: Dropsondes"
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
+    comment: "part of <doi>"
 
 flights:
   11: 
     date: 2026-01-21
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01a/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/aMCPC/"
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01a/"
     licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_TBird_RF01a/"
@@ -183,6 +194,7 @@ flights:
 
   12: 
     date: 2026-01-21
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01b/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/aMCPC/"
@@ -201,6 +213,7 @@ flights:
 
   21: 
     date: 2026-01-22
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02a/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
@@ -219,6 +232,7 @@ flights:
 
   22: 
     date: 2026-01-22
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02b/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
@@ -237,6 +251,7 @@ flights:
 
   31: 
     date: 2026-01-24
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03a/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
@@ -254,6 +269,7 @@ flights:
 
   32: 
     date: 2026-01-24
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03b/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
@@ -271,6 +287,7 @@ flights:
 
   33: 
     date: 2026-01-24
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03c/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
@@ -288,12 +305,11 @@ flights:
 
   4: 
     date: 2026-01-25
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/20260125_RF04/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/PartectorP6/2026_01_25/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/MCPC/"
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/LICOR_P6/"
-    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/LICOR_TBird/"
     prefix: "20260125_P6_04_"
     tbird: True
     start: 2026-01-25T08:47:30
@@ -313,6 +329,7 @@ flights:
 
   5: 
     date: 2026-01-25
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/20260125_RF05"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/PartectorP6/2026_01_25/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/MCPC/"
@@ -339,6 +356,7 @@ flights:
 
   6: 
     date: 2026-01-26
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/20260126_RF06/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/PartectorP6/2026_01_26/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/MCPC/"
@@ -358,6 +376,7 @@ flights:
 
   7: 
     date: 2026-01-27
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/20260127_RF07/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/PartectorP6/2026_01_27/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/aMCPC/"
@@ -379,6 +398,7 @@ flights:
 
   8: 
     date: 2026-01-27
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/20260127_RF08/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/PartectorP6/2026_01_27/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/aMCPC/"
@@ -419,6 +439,7 @@ flights:
 
   9: 
     date: 2026-01-29
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/20260129_RF09/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/PartectorP6/2026_01_29/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/MCPC/"
@@ -441,6 +462,7 @@ flights:
 
   10: 
     date: 2026-01-29
+    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/20260129_RF10/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/PartectorP6/2026_01_29/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/MCPC/"
