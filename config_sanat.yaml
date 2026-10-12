@@ -4,6 +4,12 @@ campaign:
   tbird_reversed_antennas: True
   noseboom_twist: 0
   stp: [mcpc, partector, partector_dms]
+  resampling: [uhsas]
+  flow_p_dep: [partector]
+  dev_cut_sec:
+    uhsas: 
+      start: 300
+      stop: 120
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
@@ -197,7 +203,6 @@ flights:
     flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/"
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01b/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/aMCPC/"
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01b/"
     prefix: "2026_RF01b_P6_"
@@ -395,6 +400,7 @@ flights:
         stop: 2026-01-27T11:45:58.07
     time_offsets:
       mcpc: 0
+      partector: 10719000
 
   8: 
     date: 2026-01-27
