@@ -8,8 +8,8 @@ campaign:
   flow_p_dep: [partector]
   dev_cut_sec:
     uhsas: 
-      start: 300
-      stop: 120
+      start: 0
+      stop: 0
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
@@ -171,8 +171,8 @@ flights:
     licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_TBird_RF01a/"
     prefix: "20260121_RF01a_P6__"
     tbird: True
-    start: 2026-01-21T12:41:00
-    stop: 2026-01-21T16:25:00
+    start: 2026-01-21T12:41:13
+    stop: 2026-01-21T16:25:06
     start_tbird: 2026-01-21T12:50:00
     stop_tbird: 2026-01-21T14:18:00
     calibration:
@@ -207,7 +207,7 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01b/"
     prefix: "2026_RF01b_P6_"
     tbird: True
-    start: 2026-01-21T18:22:00
+    start: 2026-01-21T18:21:38
     stop: 2026-01-21T20:39:30
     start_tbird: nat
     stop_tbird: nat
@@ -226,8 +226,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02a/"
     prefix: "20260122_RF02_P6_"
     tbird: True
-    start: 2026-01-22T09:28:00
-    stop: 2026-01-22T11:35:00
+    start: 2026-01-22T09:27:25
+    stop: 2026-01-22T11:34:47
     start_tbird: nat
     stop_tbird: nat
     time_offsets:
@@ -245,8 +245,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02b/"
     prefix: "20260122_RF02b_P6_"
     tbird: True
-    start: 2026-01-22T12:43:00
-    stop: 2026-01-22T15:41:00
+    start: 2026-01-22T12:43:11
+    stop: 2026-01-22T15:40:52
     start_tbird: nat
     stop_tbird: nat
     time_offsets:
@@ -264,8 +264,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF31/"
     prefix: "20260124_P6_RF03a_"
     tbird: True
-    start: 2026-01-24T09:41:00
-    stop: 2026-01-24T11:59:00
+    start: 2026-01-24T09:40:48
+    stop: 2026-01-24T11:59:24
     start_tbird: nat
     stop_tbird: nat
     time_offsets:
@@ -282,8 +282,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF32/"
     prefix: "20260124_P6_RF03b_"
     tbird: True
-    start: 2026-01-24T13:27:30
-    stop: 2026-01-24T17:19:30
+    start: 2026-01-24T13:27:02
+    stop: 2026-01-24T17:19:26
     start_tbird: nat
     stop_tbird: nat
     time_offsets:
@@ -301,7 +301,7 @@ flights:
     prefix: "20260124_P6_RF03c_"
     tbird: True
     start: 2026-01-24T18:53:00
-    stop: 2026-01-24T20:43:00
+    stop: 2026-01-24T20:42:49
     start_tbird: nat
     stop_tbird: nat
     time_offsets:
@@ -317,8 +317,8 @@ flights:
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/UHSAS/"
     prefix: "20260125_P6_04_"
     tbird: True
-    start: 2026-01-25T08:47:30
-    stop: 2026-01-25T13:01:00
+    start: 2026-01-25T08:47:09
+    stop: 2026-01-25T13:00:47
     start_tbird: 2026-01-25T09:40:00
     stop_tbird: 2026-01-25T11:50:00
     calibration:
@@ -343,8 +343,8 @@ flights:
     licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/LICOR_TBird/"
     prefix: "20260125_P6_05_"
     tbird: True
-    start: 2026-01-25T15:00:00
-    stop: 2026-01-25T19:38:00
+    start: 2026-01-25T15:00:05
+    stop: 2026-01-25T19:38:15
     start_tbird: 2026-01-25T15:43:00
     stop_tbird: 2026-01-25T18:20:30
     calibration:
@@ -370,8 +370,8 @@ flights:
     licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/LICOR_TBird/"
     prefix: "20260126_P6_RF06_"
     tbird: True
-    start: 2026-01-26T14:25:00
-    stop: 2026-01-26T18:27:00
+    start: 2026-01-26T14:25:04
+    stop: 2026-01-26T18:26:56
     start_tbird: 2026-01-26T16:57:00
     stop_tbird: 2026-01-26T18:03:00
     time_offsets:
@@ -389,8 +389,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/LICOR_P6/"
     prefix: "20260127_P6_07_"
     tbird: False
-    start: 2026-01-27T09:06:30
-    stop: 2026-01-27T12:11:30
+    start: 2026-01-27T09:06:10
+    stop: 2026-01-27T12:11:43
     calibration:
       out1:
         start: 2026-01-27T11:31:26.88
@@ -412,8 +412,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/LICOR_P6/"
     prefix: "20260127_P6_RF08_"
     tbird: False
-    start: 2026-01-27T14:03:30
-    stop: 2026-01-27T17:00:00
+    start: 2026-01-27T14:03:21
+    stop: 2026-01-27T16:59:50
     calibration:
       out1:
         start: 2026-01-27T14:57:40.34
@@ -452,8 +452,8 @@ flights:
     uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/UHSAS/"
     prefix: "20260129_P6_RF09_"
     tbird: False
-    start: 2026-01-29T09:02:00
-    stop: 2026-01-29T13:27:00
+    start: 2026-01-29T09:02:07
+    stop: 2026-01-29T13:27:41
     calibration:
       out1:
         start: 2026-01-29T12:13:20.17
@@ -476,8 +476,8 @@ flights:
     licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/LICOR_P6/"
     prefix: "20260129_P6_RF10_"
     tbird: False
-    start: 2026-01-29T15:04:00
-    stop: 2026-01-29T18:19:00
+    start: 2026-01-29T15:03:42
+    stop: 2026-01-29T18:19:33
     calibration:
       out1:
         start: 2026-01-29T16:55:58.86

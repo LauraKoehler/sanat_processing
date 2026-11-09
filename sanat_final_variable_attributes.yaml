@@ -70,7 +70,7 @@ noseboom:
       standard_name: air_temperature
       platform: noseboom
       units: K
-      comment: from Humicap with adiabatic corrections
+      comment: With adiabatic corrections
     
     u:
       old: u
